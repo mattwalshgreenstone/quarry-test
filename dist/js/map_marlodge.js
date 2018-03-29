@@ -3,9 +3,6 @@
 //define infobox selection
 var infobox = d3.select('#info');
 
-var green1 = '#46d9b1';
-var green2 = '#2dc0b6';
-
 //define contents of info box
 var info = {
     loc: d3.select('#info .loc'), //.info is the class in the html
@@ -22,7 +19,7 @@ var info = {
 		}
 
 		var color_scale = function(data){
-			return d3.scale.linear().domain([0, d3.max(data, function(d){return d.colour;})]).range([ green1, green2 ]);
+			return d3.scale.linear().domain([0, d3.max(data, function(d){return d.colour;})]).range(['#FA3AB6', '#663AAA']);
 			
 		}
 

@@ -31,6 +31,8 @@ var path = {
         img: 'src/img/**/*.+(png|jpg|gif|svg)',
         distImg: 'dist/img/',
         dist: 'dist/',
+        data: 'src/data/**',
+        distData: 'dist/data/',
 };
 
 
@@ -72,6 +74,12 @@ gulp.task('js', function() {
   gulp.src([ path.js ])
   .pipe( gulp.dest( path.distJs ) )
   .pipe( browserSync.reload({ stream: true }) );
+});
+
+// Data
+gulp.task('data', function() {
+  gulp.src([ path.data ])
+  .pipe( gulp.dest( path.distData ) )
 });
 
 //IMG non-min
@@ -132,7 +140,7 @@ gulp.task('watch', ['browserSync'], function (){
 
 // DEFAULT task
 gulp.task( 'default', function(cb){
-  gulpSequence(['clean'], ['js', 'sass', 'img'], ['html'], ['watch'] )(cb);
+  gulpSequence(['clean'], ['js', 'sass', 'img', 'data'], ['html'], ['watch'] )(cb);
 });
 
 

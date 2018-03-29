@@ -1,3 +1,23 @@
 //===============================================================================
 // FONTS
 //===============================================================================
+
+body { 
+ colour: $ink;
+}
+
+h2 { color: $green2; }
+
+h3, a {
+	font-weight: 400;
+	font-size: 18px;
+	color: $green1;
+	margin: 0 0 16px 0;
+}
+
+h5 {
+	color: darken($grey, 10);
+	font-weight: 400;
+	font-size: 14px;
+	margin: 4px 0;
+}
