@@ -16,8 +16,30 @@
   <div class="header">  
     <img src="img/logo.svg" alt="">
   </div>
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1PpHxbj7AjJPWWvsmyLE7cnTQKD6WWnTA&z=5" width="640" height="480"></iframe>
+ 
+ 	<div class ="wrapper">
+		<div id="map_leaflet"></div>
 
-  <script src="js/main.js"></script>
+		<div id="info" class="info-box">
+			<img id="profile-pic" class="profile-img" src="#" alt="profile-pic">
+			<h2 id="profile-name" class="profile-name" href="#" target="blank"></h2>
+			<h5>Role</h5>
+			<h3 id="role"></h3>
+			<h5>Location</h5>
+			<h3 id="location"></h3>
+			<h5>At Green Stone</h5>
+			<h3 id="startdate"></h3>
+			<h5>LinkedIn</h5>
+			<a id="linkedin" target="blank"></a>       		
+      	</div>
+
+	</div>
+
+	<script src="js/vendor/jquery-2.1.1.min.js"></script>
+	<script src = "js/vendor/d3.v3.min.js"></script>
+	<script src = "js/vendor/leaflet.js"></script>
+
+	<script src="js/map_quarry.js"></script>
+
 </body>
 </html>
