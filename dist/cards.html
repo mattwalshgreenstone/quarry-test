@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="css/styles.css">
   
-  <title>The Quarry</title>
+  <title>The Quarry</title> 
 </head>
 <body>
   
@@ -20,21 +20,11 @@
     	<a href="cards.html" class="">Cards</a></div>
   	</div>
  
- 	<div class ="wrapper">
-		<div id="map_leaflet"></div>
-
-		<div id="info" class="info-box">
-			<img id="profile-pic" class="profile-img" src="#" alt="profile-pic">
-			<h2 id="profile-name" class="profile-name" href="#" target="blank"></h2>
-			<h5>Role</h5>
-			<h3 id="role"></h3>
-			<h5>Location</h5>
-			<h3 id="location"></h3>
-			<h5>At Green Stone</h5>
-			<h3 id="startdate"></h3>
-			<h5>LinkedIn</h5>
-			<a id="linkedin" target="blank"></a>       		
-      	</div>
+ 	<div id="wrapper" class="wrapper">
+ 		<div class="filter-wrap">
+ 			<div id="filter-role" class="filter filter-off">UX</div>
+ 		</div>
+ 		<div class="card-wrap" id="card-wrap"></div>
 
 	</div>
 
@@ -42,7 +32,7 @@
 	<script src = "js/vendor/d3.v3.min.js"></script>
 	<script src = "js/vendor/leaflet.js"></script>
 
-	<script src="js/map_quarry.js"></script>
+	<script src="js/cards.js"></script>
 
 </body>
 </html>
