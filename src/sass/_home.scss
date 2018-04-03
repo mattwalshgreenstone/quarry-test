@@ -29,7 +29,6 @@ html, body {
 html, body {
   margin: 0;
   height: 100%; 
-  overflow: hidden;
 }
 
 
@@ -38,6 +37,8 @@ html, body {
   height: 80px;
   background: linear-gradient(185deg, $green1, $green2);
   padding: 10px;
+  position: fixed;
+  z-index: 100;
 
   img {
     width: 100%;
@@ -47,6 +48,16 @@ html, body {
   }
 }
 
+.pageview {
+  position: absolute;
+  right: 16px;
+  top: 40%;
+  background: none;
+
+  a {
+    color: white;
+  }
+}
 
 
 //===============================================================================
@@ -55,9 +66,17 @@ html, body {
 
 .wrapper {
   margin: 0 auto;
-  width: 100%px;
-  height: 100%;
+  width: 100%;
+  height: calc(100% - 80px);
   background: #FFFFFF;
+  position: relative;
+  top: 80px;
+}
+
+.card-wrap {
+  overflow: auto;
+  background: white;
+  padding: 8px;
 }
 
 .pc{
@@ -70,39 +89,68 @@ html, body {
 }
 
 
+.info-box, .info-card {
+  background-color: white;
+  color: $ink;
+  padding: 10px;
+  box-shadow: 1px 1px 10px #888888;
+  word-wrap: break-word;
+}
+
 .info-box {
   position: absolute;
   width: 350px;
   height: 100%;
   top: 0;
   left: 0;
-  background-color: white;
-  display:none;
-  opacity: 0; /*start at zero?*/
-  color: $ink;
-  padding: 10px;
-  box-shadow: 1px 1px 10px #888888;
+  display: none;
   border-radius: 0 10px 10px 0;
-  word-wrap: break-word;
+  opacity: 0; /*start at zero?*/
+  z-index: 200;
+}
 
+.info-card {
+  width: 450px;
+  height: 450px;
+  display: inline-block;
+  border-radius: 10px;
+  margin: 8px;
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 #map, #map_leaflet {
   width: 100%;
   height: 100%;
   position: absolute;
+  top: 0;
+  z-index: 0;
 }
 
+.filter-wrap { padding: 8px; }
 
+.filter {
+  padding: 8px 16px;
+  background-color: $green1;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  &:hover { 
+    background-color: $green2;
+  }
+
+  &.js-on { background-color: $ink;  }
+}
 
 .profile-img {
   width: 100%;
   height: auto;
   border-radius: 5px;
-
-}
-
-.profile-name {
 
 }
 
