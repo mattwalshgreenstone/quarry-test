@@ -43,11 +43,12 @@
 					var person = 
 					'<div class="info-card">'
 					 	+ '<img id="profile-pic" class="profile-img" src="img/people/' + entry.imagefile + '" alt="profile-pic"></img>'
-						+ '<h2 class="profile-name">' + entry.name + '</h2>'
-						+ '<h5>Role</h5><h3 class="role">' + entry.role + '</h3>'
-						+ '<h5>Location</h5><h3 id="location">' + entry.location + '</h3>'
-						+ '<h5>At Green Stone</h5><h3 id="startdate">' + entry.startdate + '</h3>' 
-						+ '<h5>LinkedIn</h5><a id="linkedin" target="blank" href="' + entry.linkedin +  '">' + entry.linkedin + '</a>'
+						+ '<div class="card-text">' 
+							+ '<h2 class="profile-name">' + entry.name + '</h2>'
+							+ '<h5>Role</h5><h3 class="role">' + entry.role + '</h3>'
+							+ '<h5>Location</h5><h3 id="location">' + entry.location + '</h3>'
+							+ '<a class= "linkedin-wrap" href="' + entry.linkedin +  '" target="blank"> <img src="img/icons/linkedin.svg" alt=""></a>'
+						+ '</div>'
 					+ '</div>'
 					;
 
@@ -65,7 +66,7 @@
 	});
 	//END MAKE CARDS
 
-	d3.csv('data/quarrydata.csv',function(csv){		
+	d3.csv('data/quarrydata-2.csv',function(csv){		
 		make_cards(csv);
 	});
 

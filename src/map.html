@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<head>
+  @@include('./inc/head.html')
+  
+  <title>The Quarry</title>
+</head>
+<body>
+  
+  	@@include('./inc/header.html')
+ 
+ 	<div class ="wrapper">
+		<div id="map_leaflet"></div>
 
-		<!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-		<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+		<div id="info" class="info-box">
+			<img id="profile-pic" class="profile-img" src="#" alt="profile-pic">
+			<h2 id="profile-name" class="profile-name" href="#" target="blank"></h2>
+			<h5>Role</h5>
+			<h3 id="role"></h3>
+			<h5>Location</h5>
+			<h3 id="location"></h3>
+			<h5>At Green Stone</h5>
+			<h3 id="startdate"></h3>
+			<h5>LinkedIn</h5>
+			<a id="linkedin" target="blank"></a>       		
+      	</div>
 
-		<link rel="stylesheet" href="css/styles.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/leaflet.css"> -->
+	</div>
 
-		<title>Scotland</title>
+	<script src="js/vendor/jquery-2.1.1.min.js"></script>
+	<script src = "js/vendor/d3.v3.min.js"></script>
+	<script src = "js/vendor/leaflet.js"></script>
 
-	</head>
+	<script src="js/map_quarry.js"></script>
 
-	<body>
-
-		<div class ="wrapper">
-			<div id = "map_leaflet"></div>
-			<div id = "info">
-				<a class="loc" href="#" target="blank"></a>
-				<br/>
-          		<text class="pc"></text>
-          		<br/>
-           		<img id = "mappic" src="#" alt="hello">
-          	</div>
-
-		</div>
-
-		 <script src = "js/vendor/jquery-1.10.2.min.js"></script>
-		 <script src = "js/vendor/d3.v3.min.js"></script>
-		 <script src = "js/vendor/leaflet.js"></script>
-
-		<script src = "js/map_marlodge.js"></script>
-
-	</body>
-
-
-
+</body>
 </html>

@@ -2,22 +2,31 @@
 // FONTS
 //===============================================================================
 
+
+
+
 body { 
  colour: $ink;
+ font-family: 'Roboto', sans-serif;
 }
 
-h2 { color: $green2; }
+h2 { 
+	color: $green2;
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	margin: 8px 0;
+}
 
 h3, a {
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	color: $green1;
-	margin: 0 0 16px 0;
+	margin: 0 0 8px 0;
 }
 
 h5 {
 	color: darken($grey, 10);
 	font-weight: 400;
-	font-size: 14px;
-	margin: 4px 0;
+	font-size: 11px;
+	margin: 0 0;
 }
