@@ -16,7 +16,9 @@ $(document).ready(function() {
 	members.forEach(function(entry) { allRoles.push(entry.role) })
 	//filter for unique ones
 	var roleFilters = GetUnique(allRoles);
-	//create DOM item for each
+	//sort alphabetically
+	roleFilters.sort((b, a) => a.localeCompare(b))
+	//create DOM item for each (removing empty ones)
 	roleFilters.forEach( function(role) {
 		if ( role !== '-') {
 				var filterItem = '<div id="filter-' + role + '" class="filter">' + role + '</div>'
