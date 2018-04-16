@@ -45,6 +45,13 @@ html, body {
     display: block;
     margin: 16px;
   }
+
+  @media screen and (max-width: $small) {
+    img {
+      height: 37%;
+      margin: 20px 16px;
+    }
+  }
 }
 
 .pageview {
@@ -71,6 +78,10 @@ html, body {
   &:hover {
     background-color: white;
     color: $fbblue;
+  }
+
+  @media screen and (max-width: $small) {
+    padding: 8px 8px;
   }
 }
 
