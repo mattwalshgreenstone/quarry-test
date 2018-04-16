@@ -58,6 +58,22 @@ html, body {
   }
 }
 
+.btn-fb {
+  background-color: $fbblue;
+  border-radius: 3px;
+  position: absolute;
+  right: 24px;
+  top: 14px;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: white;
+    color: $fbblue;
+  }
+}
+
 
 //===============================================================================
 // D3 Map STLYES
