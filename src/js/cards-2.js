@@ -18,8 +18,11 @@ $(document).ready(function() {
 	var roleFilters = GetUnique(allRoles);
 	//create DOM item for each
 	roleFilters.forEach( function(role) {
-		var filterItem = '<div id="filter-' + role + '" class="filter">' + role + '</div>'
-		filterCode = filterCode + filterItem;
+		if ( role !== '-') {
+				var filterItem = '<div id="filter-' + role + '" class="filter">' + role + '</div>'
+				filterCode = filterCode + filterItem;
+		}
+	
 	});	
 
 	//add to DOM
