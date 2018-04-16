@@ -137,7 +137,7 @@ var members = [
  },
  {
    "name": "Matt Walsh",
-   "role": "CXO",
+   "role": "CEO",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/mattwalsh/",
    "startdate": "Jan, 2014",
