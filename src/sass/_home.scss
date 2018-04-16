@@ -68,8 +68,9 @@ html, body {
   width: 100%;
   height: calc(100% - 80px);
   background: #FFFFFF;
-  position: relative;
-  top: 64px;
+  position: fixed;
+  overflow: auto;
+  top: 124px;
 }
 
 .pc{
@@ -128,9 +129,8 @@ html, body {
 // Card Page
 //===============================================================================
 .card-wrap {
-  overflow: auto;
   background: white;
-  padding: 65px 24px 8px 24px;
+  padding: 8px 24px;
   display: flex;
   justify-content: center;
   align-items: center;
