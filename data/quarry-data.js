@@ -65,18 +65,18 @@ var members = [
  },
  {
    "name": "David Hyung",
-   "role": "Design",
-   "location": "-",
+   "role": "Visual Designer",
+   "location": "New York",
    "linkedin": "https://www.linkedin.com/in/davidhyung/",
-   "startdate": "",
+   "startdate": "-",
    "imagefile": "davidh.jpg"
  },
  {
    "name": "Davis Kramer",
-   "role": "-",
-   "location": "-",
+   "role": "UX",
+   "location": "New York",
    "linkedin": "https://www.linkedin.com/in/davis-kramer-28238220/",
-   "startdate": "",
+   "startdate": "-",
    "imagefile": "davisk.jpg"
  },
  {
@@ -100,8 +100,16 @@ var members = [
    "role": "Production",
    "location": "-",
    "linkedin": "https://www.linkedin.com/in/jennaegold/",
-   "startdate": "",
+   "startdate": "-",
    "imagefile": "jennag.jpg"
+ },
+ {
+   "name": "Jordan Fripp",
+   "role": "Visual Designer",
+   "location": "Atlanta",
+   "linkedin": "https://www.linkedin.com/in/jordanfripp/detail/photo/",
+   "startdate": "-",
+   "imagefile": "jordanf.jpg"
  },
  {
    "name": "Joshua Bletterman",
@@ -112,19 +120,19 @@ var members = [
    "imagefile": "joshb.jpg"
  },
  {
-   "name": "Lou Pinto",
-   "role": "-",
-   "location": "-",
-   "linkedin": "",
-   "startdate": "",
-   "imagefile": "no-img.jpg"
+   "name": "Lou Thor",
+   "role": "HR",
+   "location": "Denver",
+   "linkedin": "https://www.linkedin.com/in/louthor/",
+   "startdate": "-",
+   "imagefile": "lout.jpg"
  },
  {
    "name": "Mara Walsh",
    "role": "-",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/mara-walsh-64a4527/",
-   "startdate": "",
+   "startdate": "-",
    "imagefile": "maraw.jpg"
  },
  {
