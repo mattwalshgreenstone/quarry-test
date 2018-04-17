@@ -1,7 +1,7 @@
 var members = [
  {
    "name": "Ariana de Rhys",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/ariana-de-ryss/",
    "startdate": "Jul, 2015",
@@ -9,7 +9,7 @@ var members = [
  },
  {
    "name": "Avery Prommer",
-   "role": "Production",
+   "role": "Engagement",
    "location": "Davis California",
    "linkedin": "https://www.linkedin.com/in/avery-prommer-98b45a2/",
    "startdate": "January, 2017",
@@ -25,7 +25,7 @@ var members = [
  },
  {
    "name": "Chance Woodward",
-   "role": "Production",
+   "role": "Engagement",
    "location": "Denver",
    "linkedin": "https://www.linkedin.com/in/chancewoodward/",
    "startdate": "Nov, 2015",
@@ -33,7 +33,7 @@ var members = [
  },
  {
    "name": "Charles Law",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Toronto",
    "linkedin": "https://www.linkedin.com/in/charleslaw/",
    "startdate": "Apr, 2014",
@@ -41,7 +41,7 @@ var members = [
  },
  {
    "name": "Chelsea Janssen",
-   "role": "Production",
+   "role": "Engagement",
    "location": "Mineapolis, MN",
    "linkedin": "https://www.linkedin.com/in/chelsea-b-janssen-90552411/",
    "startdate": "June 2017",
@@ -49,7 +49,7 @@ var members = [
  },
  {
    "name": "Corey Szopinski",
-   "role": "Creative Director",
+   "role": "Technology",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/coreyszopinski/",
    "startdate": "January 2018",
@@ -57,7 +57,7 @@ var members = [
  },
  {
    "name": "Darren Himebrook",
-   "role": "Production",
+   "role": "Engagement",
    "location": "New York",
    "linkedin": "https://www.linkedin.com/in/darrenhimebrook/",
    "startdate": "March 2016",
@@ -65,7 +65,7 @@ var members = [
  },
  {
    "name": "David Hyung",
-   "role": "Visual Designer",
+   "role": "Design",
    "location": "New York",
    "linkedin": "https://www.linkedin.com/in/davidhyung/",
    "startdate": "-",
@@ -73,7 +73,7 @@ var members = [
  },
  {
    "name": "Davis Kramer",
-   "role": "UX",
+   "role": "User Experience",
    "location": "New York",
    "linkedin": "https://www.linkedin.com/in/davis-kramer-28238220/",
    "startdate": "-",
@@ -81,7 +81,7 @@ var members = [
  },
  {
    "name": "Ian Black ",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Vancouver",
    "linkedin": "www.linkedin.com/in/itomblack",
    "startdate": "Feb, 2018",
@@ -89,7 +89,7 @@ var members = [
  },
  {
    "name": "Inah Mercedes",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Miami",
    "linkedin": "https://www.linkedin.com/in/inahmercedes/",
    "startdate": "Feb, 2014",
@@ -97,15 +97,23 @@ var members = [
  },
  {
    "name": "Jenna Gold",
-   "role": "Production",
+   "role": "Engagement",
    "location": "-",
    "linkedin": "https://www.linkedin.com/in/jennaegold/",
    "startdate": "-",
    "imagefile": "jennag.jpg"
  },
  {
+   "name": "Jeremy Hamman",
+   "role": "Design",
+   "location": "New York",
+   "linkedin": "https://www.linkedin.com/in/fatandhandsome/",
+   "startdate": "March 2017",
+   "imagefile": "jeremyh.jpg"
+ },
+ {
    "name": "Jordan Fripp",
-   "role": "Visual Designer",
+   "role": "Design",
    "location": "Atlanta",
    "linkedin": "https://www.linkedin.com/in/jordanfripp/detail/photo/",
    "startdate": "-",
@@ -113,7 +121,7 @@ var members = [
  },
  {
    "name": "Joshua Bletterman",
-   "role": "Creative Director",
+   "role": "Creative",
    "location": "New York",
    "linkedin": "https://www.linkedin.com/in/joshuabletterman/",
    "startdate": "Jun, 2015",
@@ -129,7 +137,7 @@ var members = [
  },
  {
    "name": "Lou Thor",
-   "role": "HR",
+   "role": "Operations",
    "location": "Denver",
    "linkedin": "https://www.linkedin.com/in/louthor/",
    "startdate": "-",
@@ -153,7 +161,7 @@ var members = [
  },
  {
    "name": "Sarah Barrow",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Denver",
    "linkedin": "https://www.linkedin.com/in/scbarrow/",
    "startdate": "Dec, 2014",
@@ -161,7 +169,7 @@ var members = [
  },
  {
    "name": "Scott Potter",
-   "role": "Production",
+   "role": "Engagement",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/scottrpotter/",
    "startdate": "April 2017",
@@ -169,7 +177,7 @@ var members = [
  },
  {
    "name": "Sean Cardiff",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Portland, MN",
    "linkedin": "https://www.linkedin.com/in/seancardiff/",
    "startdate": "November, 2016",
@@ -177,7 +185,7 @@ var members = [
  },
  {
    "name": "Sophia Prater",
-   "role": "UX",
+   "role": "User Experience",
    "location": "Atlanta",
    "linkedin": "https://www.linkedin.com/in/sophiav/",
    "startdate": "Jan, 2015",
@@ -193,7 +201,7 @@ var members = [
  },
  {
    "name": "Ted Ripple",
-   "role": "Visual Designer",
+   "role": "Design",
    "location": "Los Angeles",
    "linkedin": "https://www.linkedin.com/in/tedripple/",
    "startdate": "March 2017",

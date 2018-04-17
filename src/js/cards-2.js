@@ -93,7 +93,7 @@ $(document).ready(function() {
 				 	+ '<img id="profile-pic" class="profile-img" src="img/people/' + entry.imagefile + '" alt="profile-pic"></img>'
 					+ '<div class="card-text">' 
 						+ '<h2 class="profile-name">' + entry.name + '</h2>'
-						+ '<h5>Role</h5><h3 class="role">' + entry.role + '</h3>'
+						+ '<h5>Department</h5><h3 class="role">' + entry.role + '</h3>'
 						+ '<h5>Location</h5><h3 id="location">' + entry.location + '</h3>';
 
 					if (entry.linkedin != '') {
