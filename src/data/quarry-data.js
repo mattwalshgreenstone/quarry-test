@@ -120,6 +120,14 @@ var members = [
    "imagefile": "joshb.jpg"
  },
  {
+   "name": "Kathryn White",
+   "role": "Operations",
+   "location": "Boulder",
+   "linkedin": "https://www.linkedin.com/in/kathryn-white-08502499/",
+   "startdate": "Oct, 2016",
+   "imagefile": "kathrynw.jpg"
+ },
+ {
    "name": "Lou Thor",
    "role": "HR",
    "location": "Denver",
