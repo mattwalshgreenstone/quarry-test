@@ -145,7 +145,7 @@ var members = [
  },
  {
    "name": "Mara Walsh",
-   "role": "-",
+   "role": "EVP",
    "location": "Boulder",
    "linkedin": "https://www.linkedin.com/in/mara-walsh-64a4527/",
    "startdate": "-",
