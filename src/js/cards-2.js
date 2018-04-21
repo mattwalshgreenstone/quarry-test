@@ -5,6 +5,45 @@ $(document).ready(function() {
 	var filter = 'none';
 
 
+
+	//========================================================
+	// SEARCH
+	//========================================================
+
+	//creates a listener for when you press a key
+	window.onkeyup = keyup;
+
+	//creates a global Javascript variable
+	var inputTextValue;
+
+	function keyup(e) {
+	  //setting your input text to the global Javascript Variable for every key press
+	  inputTextValue = document.getElementById('searchbox').value;
+	  console.log(inputTextValue)
+
+	  //listens for you to press the ENTER key
+	  if (e.keyCode == 13) {
+	    //perform search
+	    var results = [];
+ 
+	    for ( var i=0; i < members.length; i++ ) {
+	      for ( key in members[i] ) {
+	        if ( members[i][key].toLowerCase().indexOf(inputTextValue)!=-1 ) {
+	          results.push( members[i] );
+	          console.log(results);
+	          break;
+	        }
+	      }
+	    }
+
+
+
+
+	  }
+	}
+	
+
+
 	//========================================================
 	//FILTERING
 	//========================================================
