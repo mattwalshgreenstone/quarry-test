@@ -17,7 +17,7 @@ ul {
 
 
 html, body {
-  background-color: $ink;
+  background-color: white;
   color: white;
 }
 
@@ -230,8 +230,9 @@ html, body {
   z-index: 10;
   // background: rgba(255,255,255,.5);
   background: white;
-  box-shadow: 0 0 4px $grey;
+  // box-shadow: 0 0 4px $grey;
   width: 100%;
+  padding: 32px;
 }
 
 .filter-wrap {
@@ -261,8 +262,30 @@ html, body {
   }
 }
 
+.search-icon {
+  display: inline;
+  color: $ink;
+  font-size: 24px;
+  position: absolute;
+  left: calc(50% - 137px);
+  z-index: 99;
+  transform: rotate(-45deg);
+  top: 48px;
+}
 .textbox {
-  color: black;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 8px 8px 36px;
+  width: 300px;
+  border-radius: 5px;
+  margin-top: 16px;
+  border-style: none;
+  border: 1px solid rgba(0,0,0,.1);
+  color: #2dc0b6;
+  box-shadow: 0 2px 6px 0px rgba(0,0,0, .1);
+  position: relative;
+
 }
 
 //===============================================================================

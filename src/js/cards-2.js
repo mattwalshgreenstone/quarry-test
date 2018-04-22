@@ -12,17 +12,16 @@ $(document).ready(function() {
 
 	//creates a listener for when you press a key
 	window.onkeyup = keyup;
-
-	//creates a global Javascript variable
 	var inputTextValue;
 
 	function keyup(e) {
-	  //setting your input text to the global Javascript Variable for every key press
+	  //get input text for every key press
 	  inputTextValue = document.getElementById('searchbox').value;
 	  console.log(inputTextValue)
 
-	  //listens for you to press the ENTER key
-	  if (e.keyCode == 13) {
+	  //listens for you to press the ENTER key to search
+	  // if (e.keyCode == 13) {
+	  // if (inputTextValue.length >= 3) {
 	    //perform search
 	    var results = [];
  
@@ -30,17 +29,15 @@ $(document).ready(function() {
 	      for ( key in members[i] ) {
 	        if ( members[i][key].toLowerCase().indexOf(inputTextValue)!=-1 ) {
 	          results.push( members[i] );
-	          console.log(results);
 	          break;
 	        }
 	      }
-	    }
+	    } //end for loop
+	    make_cards( results );
 
+	  // } //end if
 
-
-
-	  }
-	}
+	} //enter function keyup
 	
 
 

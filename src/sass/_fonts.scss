@@ -10,6 +10,15 @@ body {
  font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+	color: darken($grey, 10);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+	margin: 24px 0 16px 0;
+}
+
 h2 { 
 	color: $green2;
 	font-family: 'Roboto Slab', serif;
