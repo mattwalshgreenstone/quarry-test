@@ -1,8 +1,9 @@
 
 $(document).ready(function() {
 
-	var wrapper = $('#wrapper')
+	var wrapper = document.getElementById('wrapper')
 	var filter = 'none';
+	searchbox = document.getElementById('searchbox')
 
 
 
@@ -12,33 +13,32 @@ $(document).ready(function() {
 
 	//creates a listener for when you press a key
 	window.onkeyup = keyup;
-	var inputTextValue;
+	var searchText;
 
-	function keyup(e) {
-	  //get input text for every key press
-	  inputTextValue = document.getElementById('searchbox').value;
-	  console.log(inputTextValue)
-
-	  //listens for you to press the ENTER key to search
-	  // if (e.keyCode == 13) {
-	  // if (inputTextValue.length >= 3) {
-	    //perform search
-	    var results = [];
- 
-	    for ( var i=0; i < members.length; i++ ) {
-	      for ( key in members[i] ) {
-	        if ( members[i][key].toLowerCase().indexOf(inputTextValue)!=-1 ) {
-	          results.push( members[i] );
-	          break;
-	        }
-	      }
-	    } //end for loop
-	    make_cards( results );
-
-	  // } //end if
-
-	} //enter function keyup
+	function keyup(e) { 
+  	//perform search
+  	performSearch( searchText )
+	}
 	
+
+	function  performSearch( searchText ) {
+
+		//get input text for every key press
+	  searchText = searchbox.value.toLowerCase();
+
+		var results = [];
+		
+		for ( var i=0; i < members.length; i++ ) {
+		  for ( key in members[i] ) {
+		    if ( members[i][key].toLowerCase().indexOf( searchText )!=-1 ) {
+		      results.push( members[i] );
+		      break;
+		    }
+		  }
+		} //end for loop
+		make_cards( results );
+
+	}
 
 
 	//========================================================
@@ -49,9 +49,11 @@ $(document).ready(function() {
 	var allRoles = []
 	var filterCode = '';
 	//get all roles
-	members.forEach(function(entry) { allRoles.push(entry.role) })
-	//filter for unique ones
-	var roleFilters = GetUnique(allRoles);
+	members.forEach(function(entry) { allRoles.push(entry.role) });
+
+	//filter for ones more than 1 of
+	var roleFilters = GetPopular(allRoles);
+
 	//sort alphabetically
 	roleFilters.sort((b, a) => a.localeCompare(b))
 	//create DOM item for each (removing empty ones)
@@ -69,25 +71,17 @@ $(document).ready(function() {
 	
 
 	$('.filter').click( function(event) {
-			//turn all filters off
-			$('.filter').not(this).removeClass('js-on')
 
-			// turn this one on
-			$( this ).toggleClass('js-on');
+		// 		var filteredMembers = $.grep(members, function (member, i) {
+		// 			return member.role == filter;
+		// 		});
 
-			if ( filter !== $(this).text() ) {
-					filter = $(this).text();
+		// 		make_cards(filteredMembers);
 
-					var filteredMembers = $.grep(members, function (member, i) {
-						return member.role == filter;
-					});
+		// fill text box with text
+		searchbox.value = event.target.textContent;
+		performSearch( searchText )
 
-					make_cards(filteredMembers);
-			}
-			else {
-					filter = 'none'
-					make_cards(members);
-			}
 	});
 
 
@@ -95,7 +89,7 @@ $(document).ready(function() {
 	//USEFUL FUNCTIONS
 	//========================================================
 
-	function GetUnique(inputArray)
+	function GetUnique( inputArray )
 	{
 		var outputArray = [];
 		for (var i = 0; i < inputArray.length; i++)
@@ -108,7 +102,21 @@ $(document).ready(function() {
 		return outputArray;
 	}
 
+	function GetPopular( inputArray ) {
 
+		//set min value
+		var moreThan = 1;
+
+		var o = inputArray.reduce((o, n) => {
+		  n in o ? o[n] += 1 : o[n] = 1;
+		  return o;
+		}, {});
+
+		var outputArray = Object.keys(o).filter(k => o[k] > moreThan);
+
+
+		return outputArray;
+	}
 
 
 
