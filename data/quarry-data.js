@@ -19,9 +19,9 @@ var members = [
    "name": "Carl St Philip",
    "role": "CFO",
    "location": "-",
-   "linkedin": "",
+   "linkedin": "https://www.linkedin.com/in/carl-st-philip-10900b7/",
    "startdate": "October 2017",
-   "imagefile": "no-img.jpg"
+   "imagefile": "carls.jpg"
  },
  {
    "name": "Chance Woodward",
@@ -122,7 +122,7 @@ var members = [
  {
    "name": "Joshua Bletterman",
    "role": "Creative",
-   "location": "New York",
+   "location": "Barbados",
    "linkedin": "https://www.linkedin.com/in/joshuabletterman/",
    "startdate": "Jun, 2015",
    "imagefile": "joshb.jpg"
