@@ -102,7 +102,7 @@ div { position: relative; }
   background: #FFFFFF;
   position: fixed;
   overflow: auto;
-  top: 161px;
+  top: 155px;
 }
 
 .card-wrap {
@@ -118,9 +118,9 @@ div { position: relative; }
   background-color: white;
   color: $ink;
   padding: 16px;
-  box-shadow: 0px 1px 8px rgba(0,0,0,.3);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,.3);
   word-wrap: break-word;
-  width:  300px;
+  width:  290px;
   height: 400px;
   display: inline-block;
   border-radius: 3px;
@@ -171,10 +171,52 @@ div { position: relative; }
 // FILTERS
 //===============================================================================
 
+
+.search-title-wrap {
+  width: 100%;
+  max-width: 290px;
+  height: 64px;
+  display: inline-block; 
+  margin: 0 16px 0 0;
+  
+  @media screen and (max-width: 400px) {
+    max-width: 400px;
+  }
+
+  @media screen and (max-width: 900px) {
+    height: 50px;
+  }
+
+}
 .search-wrap {
-  width: 300px;
-  height: 36px;
-  display: inline-block;
+
+}
+
+.search-title {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.clear-search {
+  width: 24px;
+  height: 24px;
+  margin: 8px;
+  background: $lgrey;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  right: 4px;
+  top: 1px;
+  z-index: 99;
+  border-radius: 100%;
+  padding: 6px;
+  line-height: 12px;
+  cursor: pointer;
+
+  &:hover {
+    background: $green1;
+  }
 }
 
 .search-icon {
@@ -183,7 +225,7 @@ div { position: relative; }
   font-size: 24px;
   position: absolute;
   left: 14px;
-  top: 1px;
+  top: 4px;
   z-index: 99;
   transform: rotate(-45deg);
 }
@@ -193,40 +235,54 @@ div { position: relative; }
   text-align: left;
   display: block;
   margin: 0 auto;
-  padding: 8px 8px 8px 36px;
+  padding: 8px 8px 8px 39px;
   width: 100%;
   border-radius: 5px;
-  // margin-top: 16px;
   border-style: none;
   border: 1px solid rgba(0,0,0,.1);
+  appearance: none;
   box-shadow: 0 2px 6px 0px rgba(0,0,0, .1);
   position: relative;
+  height: 42px;
+
+  &::placeholder {
+    color: $grey;
+  }
+
+  &:focus {
+    outline: none;
+  }
 
 }
 
 .search-filter-wrap {
   display: inline-block;
-  padding: 0 0 0 20px;
+  white-space: nowrap;
+
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 }
 
 .filter-section {
-  white-space: nowrap;
   overflow: scroll;
   position: fixed;
   top: 64px;
   z-index: 10;
-  // background: rgba(255,255,255,.5);
   background: white;
   border-bottom: 1px solid $lgrey;
-  // box-shadow: 0 0 4px $grey;
   width: 100%;
-  padding: 16px 20px 24px 20px;
+  padding: 16px 24px 8px 24px;
+  
+  @media screen and (max-width: 900px) {
+    padding: 12px 24px 6px 24px;
+  }
+
+  
 }
 
 .filter-wrap {
-  // padding: 12px 24px;
   width: 100%;
-  text-align: center;
 }
 
 .filter {
@@ -238,7 +294,7 @@ div { position: relative; }
   font-size: 16px;
   border-radius: 3px;
   cursor: pointer;
-  margin-right: 8px;
+  margin: 0 8px 8px 0;
 
   &:hover { 
     border: 1px solid $vlgrey;
@@ -248,5 +304,9 @@ div { position: relative; }
   &.js-on {
     background-color: $green1;
     color: white;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
   }
 }

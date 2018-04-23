@@ -1,9 +1,12 @@
 
 $(document).ready(function() {
 
-	var wrapper = document.getElementById('wrapper')
+	var wrapper = document.getElementById('wrapper');
+	var header = document.getElementById('header');
+	var filterSection = document.getElementById('filter-section');
 	var filter = 'none';
-	searchbox = document.getElementById('searchbox')
+	var searchbox = document.getElementById('searchbox');
+	var clearsearch = $('#clear-search');
 
 
 
@@ -40,6 +43,12 @@ $(document).ready(function() {
 
 	}
 
+	// CLEAR SEARCH
+	clearsearch.click( function(event) {
+		searchbox.value = "";
+		make_cards( members );
+	});
+
 
 	//========================================================
 	//FILTERING
@@ -55,7 +64,7 @@ $(document).ready(function() {
 	var roleFilters = GetPopular(allRoles);
 
 	//sort alphabetically
-	roleFilters.sort((b, a) => a.localeCompare(b))
+	roleFilters.sort((a, b) => a.localeCompare(b))
 	//create DOM item for each (removing empty ones)
 	roleFilters.forEach( function(role) {
 		if ( role !== '-') {
@@ -161,9 +170,25 @@ $(document).ready(function() {
 	//END MAKE CARDS
 
 
+
+	//========================================================
+	// WRAPPER PADDING
+	//========================================================
+
+	$( window ).resize(function() {
+		setWrapperTop()
+	})
+
+	var setWrapperTop = function() {
+		var offset =  filterSection.offsetHeight + header.offsetHeight;
+		wrapper.style.setProperty("top", offset + "px");
+	}
+
+
 	//========================================================
 	//FIRST PAGE RUN
 	//========================================================
+	setWrapperTop();
 	make_cards(members);
 
 

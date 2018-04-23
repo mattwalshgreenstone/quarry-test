@@ -15,7 +15,7 @@
 </head>
 <body>
 
-   <div class="header">  
+   <div id="header" class="header">  
 	<img src="img/quarry-logo.svg" alt="">
 	<a href="http://from.gs/thequarry" target="_blank" class="btn-fb">Join the group</a>
 	<!-- <div class="pageview">
@@ -27,14 +27,16 @@
   
     
  <!-- filters -->
-  <div class="filter-section">
+  <div id="filter-section" class="filter-section">
 	<!-- <h1 class="page">Search the Quarry</h1> -->
-	<h5 class="m-bot-sml">Search the Quarry:</h5>
-	<div class="search-wrap">
-		<div class="search-icon">&#9906;</div>
-	
-  		<input type="text" id="searchbox" name="searchbox" class="textbox">
-  	</div>
+	<div class="search-title-wrap">
+		<h5 class="m-bot-sml search-title">Find a member:</h5>
+		<div class="search-wrap">
+			<div class="search-icon">&#9906;</div>
+			<div id="clear-search" class="clear-search">×</div>
+	  		<input type="text" id="searchbox" name="searchbox" class="textbox" placeholder='E.g. "Design", "New York" '>
+	  	</div>
+	</div>
   	<div class="search-filter-wrap">
   		<h5 class="m-bot-sml">Popular searches:</h5>
     	<div id="filter-wrap" class="filter-wrap"></div>
