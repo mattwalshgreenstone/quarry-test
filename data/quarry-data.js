@@ -1,7 +1,7 @@
 var members = [
  {
-   "name": "Ariana de Rhys",
-   "role": "User Experience",
+   "name": "Ariana de Ryss",
+   "role": "Experience",
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/ariana-de-ryss/",
    "startdate": "Jul, 2015",
@@ -16,7 +16,7 @@ var members = [
    "imagefile": "averyp.jpg"
  },
  {
-   "name": "Carl St Philip",
+   "name": "Carl St. Philip",
    "role": "CFO",
    "location": "Key West, FL",
    "linkedin": "https://www.linkedin.com/in/carl-st-philip-10900b7/",
@@ -33,7 +33,7 @@ var members = [
  },
  {
    "name": "Charles Law",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Toronto, ON",
    "linkedin": "https://www.linkedin.com/in/charleslaw/",
    "startdate": "Apr, 2014",
@@ -42,14 +42,14 @@ var members = [
  {
    "name": "Chelsea Janssen",
    "role": "Engagement",
-   "location": "Mineapolis, MN",
+   "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/chelsea-b-janssen-90552411/",
    "startdate": "June 2017",
    "imagefile": "chelseaj.jpg"
  },
  {
    "name": "Corey Szopinski",
-   "role": "cs",
+   "role": "Technology",
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/coreyszopinski/",
    "startdate": "January 2018",
@@ -73,7 +73,7 @@ var members = [
  },
  {
    "name": "Davis Kramer",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/davis-kramer-28238220/",
    "startdate": "-",
@@ -81,7 +81,7 @@ var members = [
  },
  {
    "name": "Ian Black ",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Vancouver, BC",
    "linkedin": "www.linkedin.com/in/itomblack",
    "startdate": "Feb, 2018",
@@ -89,7 +89,7 @@ var members = [
  },
  {
    "name": "Inah Mercedes",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Miami, FL",
    "linkedin": "https://www.linkedin.com/in/inahmercedes/",
    "startdate": "Feb, 2014",
@@ -106,7 +106,7 @@ var members = [
  {
    "name": "Jeremy Hamman",
    "role": "Design",
-   "location": "New York, NY",
+   "location": "Clinton, NY",
    "linkedin": "https://www.linkedin.com/in/fatandhandsome/",
    "startdate": "March 2017",
    "imagefile": "jeremyh.jpg"
@@ -122,7 +122,7 @@ var members = [
  {
    "name": "Joshua Bletterman",
    "role": "Creative",
-   "location": "Barbados, CAR",
+   "location": "-",
    "linkedin": "https://www.linkedin.com/in/joshuabletterman/",
    "startdate": "Jun, 2015",
    "imagefile": "joshb.jpg"
@@ -130,7 +130,7 @@ var members = [
  {
    "name": "Kathryn White",
    "role": "Operations",
-   "location": "Boulder, CO",
+   "location": "Jamestown, CO",
    "linkedin": "https://www.linkedin.com/in/kathryn-white-08502499/",
    "startdate": "Oct, 2016",
    "imagefile": "kathrynw.jpg"
@@ -138,7 +138,7 @@ var members = [
  {
    "name": "Lou Thor",
    "role": "Operations",
-   "location": "Denver, CO",
+   "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/louthor/",
    "startdate": "-",
    "imagefile": "lout.jpg"
@@ -161,7 +161,7 @@ var members = [
  },
  {
    "name": "Sarah Barrow",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/scbarrow/",
    "startdate": "Dec, 2014",
@@ -177,15 +177,15 @@ var members = [
  },
  {
    "name": "Sean Cardiff",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Calgary, AB",
    "linkedin": "https://www.linkedin.com/in/seancardiff/",
    "startdate": "November, 2016",
    "imagefile": "seanca.jpg"
  },
  {
-   "name": "Sean Curren",
-   "role": "User Experience",
+   "name": "Sean Curran",
+   "role": "Experience",
    "location": "Portland, ME",
    "linkedin": "https://www.linkedin.com/in/srcurran/detail/photo/",
    "startdate": "-",
@@ -193,7 +193,7 @@ var members = [
  },
  {
    "name": "Sophia Prater",
-   "role": "User Experience",
+   "role": "Experience",
    "location": "Atlanta, GA",
    "linkedin": "https://www.linkedin.com/in/sophiav/",
    "startdate": "Jan, 2015",
