@@ -122,7 +122,7 @@ var members = [
  {
    "name": "Joshua Bletterman",
    "role": "Creative",
-   "location": "-",
+   "location": "Garrison, NY",
    "linkedin": "https://www.linkedin.com/in/joshuabletterman/",
    "startdate": "Jun, 2015",
    "imagefile": "joshb.jpg"
