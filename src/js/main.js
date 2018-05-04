@@ -1,124 +1,199 @@
-(function(window, document, undefined){
 
-https://spreadsheets.google.com/feeds/cells/<ID>/1/public/values?alt=json-in-script
+$(document).ready(function() {
 
-var url = "https://spreadsheets.google.com/feeds/cells/1lo6SqadSoZqCASQnG5vQ18UQefj9AreS1F2oJ9JrC6A/1/public/values?alt=json-in-script";
-$.ajax({
-    url:url,
-    dataType:"jsonp",
-    success:function(data) {
-    	console.log(data.feed.entry)
-        // data.feed.entry is an array of objects that represent each cell
-    },
-});
+  var wrapper = document.getElementById('wrapper');
+  var header = document.getElementById('header');
+  var filterSection = document.getElementById('filter-section');
+  var filter = 'none';
+  var searchbox = document.getElementById('searchbox');
+  var clearsearch = $('#clear-search');
 
 
-// //define infobox selection
-// var infobox = d3.select('#info');
 
-// var green1 = '#46d9b1';
-// var green2 = '#2dc0b6';
+  //========================================================
+  // SEARCH
+  //========================================================
 
-// //define contents of info box
-// var info = {
-//     loc: d3.select('#info .loc'), //.info is the class in the html
-//     pc: d3.select('#info .pc'),
-//   };
+  //creates a listener for when you press a key
+  window.onkeyup = keyup;
+  var searchText;
 
-//  var mappic = d3.select('#mappic');
- 
-// 	var make_map = (function(data){
+  function keyup(e) { 
+    //perform search
+    performSearch( searchText )
+  }
+  
+
+  function  performSearch( searchText ) {
+
+    //get input text for every key press
+    searchText = searchbox.value.toLowerCase();
+
+    var results = [];
+    
+    for ( var i=0; i < members.length; i++ ) {
+      for ( key in members[i] ) {
+        if ( members[i][key].toLowerCase().indexOf( searchText )!=-1 ) {
+          results.push( members[i] );
+          break;
+        }
+      }
+    } //end for loop
+    make_cards( results );
+
+  }
+
+  // CLEAR SEARCH
+  clearsearch.click( function(event) {
+    searchbox.value = "";
+    make_cards( members );
+  });
 
 
-// 		var radius_scale = function(data){
-// 			return d3.scale.linear().domain([0, d3.max(data, function(d){return d.mag;})]).range([1, 15]);
-// 		}
+  //========================================================
+  //FILTERING
+  //========================================================
 
-// 		var color_scale = function(data){
-// 			return d3.scale.linear().domain([0, d3.max(data, function(d){return d.colour;})]).range([ green1, green2 ]);
-			
-// 		}
+  //fill up filters
+  var allRoles = []
+  var filterCode = '';
+  //get all roles
+  members.forEach(function(entry) { allRoles.push(entry.role) });
 
-// 		var map = L.map('map_leaflet', {
-//             zoomControl:false, //we have to remove the standard one to put in our new one where we want
-//             }).setView([56.992281 , -3.485215], 8); //start point and zoom to mar lodge
+  //filter for ones more than 1 of
+  var roleFilters = GetPopular(allRoles);
+
+  //sort alphabetically
+  roleFilters.sort((a, b) => a.localeCompare(b))
+  //create DOM item for each (removing empty ones)
+  roleFilters.forEach( function(role) {
+    if ( role !== '-') {
+        var filterItem = '<div id="filter-' + role + '" class="filter">' + role + '</div>'
+        filterCode = filterCode + filterItem;
+    }
+  
+  }); 
+
+  //add to DOM
+  $('#filter-wrap').html(filterCode);
+
+  
+
+  $('.filter').click( function(event) {
+
+    //    var filteredMembers = $.grep(members, function (member, i) {
+    //      return member.role == filter;
+    //    });
+
+    //    make_cards(filteredMembers);
+
+    // fill text box with text
+    searchbox.value = event.target.textContent;
+    performSearch( searchText )
+
+  });
+
+
+  //========================================================
+  //USEFUL FUNCTIONS
+  //========================================================
+
+  function GetUnique( inputArray )
+  {
+    var outputArray = [];
+    for (var i = 0; i < inputArray.length; i++)
+    {
+      if ((jQuery.inArray(inputArray[i], outputArray)) == -1)
+      {
+        outputArray.push(inputArray[i]);
+      }
+    }
+    return outputArray;
+  }
+
+  function GetPopular( inputArray ) {
+
+    //set min value
+    var moreThan = 3;
+
+    var o = inputArray.reduce((o, n) => {
+      n in o ? o[n] += 1 : o[n] = 1;
+      return o;
+    }, {});
+
+    var outputArray = Object.keys(o).filter(k => o[k] > moreThan);
+
+
+    return outputArray;
+  }
+
+
+
+  //========================================================
+  //MAKING CARDS
+  //========================================================
+
+  var make_cards = (function(data){
+    //clear html content variable
+    var quarryPeople = "";  
+    
+    data.forEach(function(entry) {
+
+        // Add people to collection
+          //create template
+        var person = 
+        '<div class="info-card">'
+          + '<img id="profile-pic" class="profile-img" src="img/people/' + entry.imagefile + '" alt="profile-pic"></img>'
+          + '<div class="card-text">' 
+            + '<h2 class="profile-name">' + entry.name + '</h2>'
+            + '<h5>Department</h5><h3 class="role">' + entry.role + '</h3>'
+            + '<h5>Location</h5><h3 id="location">' + entry.location + '</h3>';
+
+          if (entry.linkedin != '') {
+            person = person + '<a class= "linkedin-wrap" href="' + entry.linkedin +  '" target="blank"> <img src="img/icons/linkedin.svg" alt=""></a>'
+          };
+
+          person = person + '</div>'
+          + '</div>'
+        ;
+          //add to collection
+        quarryPeople = quarryPeople + person;
         
-//         var mapLink = 
-//             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-//         L.tileLayer(
-//             'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//             minZoom:2
-//             }).addTo(map);
+     });
 
-//       	//add new zoom controls
-//          //new L.Control.Zoom({ position: 'topright' }).addTo(map);
-
-//         // Initialize the SVG layer
-// 		map._initPathRoot() 
-
-// 		 // We pick up the SVG from the map object
-// 		var svg = d3.select("#map_leaflet").select("svg"),
-// 		g = svg.append("g");	
-
-// 		data.forEach(function(entry) {
-// 		   entry.LatLng = new L.LatLng(entry.lat,
-// 		      entry.long)
-// 		  })	
-
-// 		var radius = radius_scale(data);
-// 		var color = color_scale(data);
-		
-				  
-// 		var feature = g.selectAll("circle")
-// 		   .data(data)
-// 		   .enter().append("circle")
-// 		   .style("stroke", "white")  
-// 		   .style("opacity", .8) 
-// 		   .style("fill", function(d){ return color(d.colour);}) 
-// 		   .attr("r", function(d){ return radius(d.mag);})
-// 		   .attr("class", "location_circle")
-// 		   //fade in on mouseover
-//    			.on("click", function(d){
-   				  				
-//    				infobox.transition().duration(200).style("opacity", "0") //faceout anything already open
-//    					.style("display", "block");//make sure display isnt set to none
-//    					//refill box after old boxes have been hidden  
-//    					d3.select('.loc').transition().delay(200).attr("href", d.hyperlink).text(d.name); //hyperlink  & name
-//    					info.pc.transition().delay(200).text('' + d.infotext); //change text
-
-//    					d3.select('.extra').transition().delay(200).attr("href", d.hyperlink2).text(d.hypertext); 
-
-// 	        		mappic.transition().delay(200).attr("src", 'mapimages/' + d.imagefile); //put image in
-	        		   		
-//         			//Fade up again after short time
-//         			setTimeout(function() {
-//         		    infobox.transition().duration(500).style("opacity", "1");},230);//this is the timer time
-//         	});
-   			   			
-
-// 		map.on("viewreset", update);
-// 		update();
-
-// 		//hide info boxes on map click
-	
-// 		map.on("dblclick", function(d){
-// 				infobox.transition().duration(600).style("opacity", "0");
-//    				infobox.transition().delay(600).style("display", "none");
-//    	 	}); 
-		
-
-// 		function update() {
-// 		   	feature.attr("transform", 
-// 		   	function(d) { 
-// 		       	return "translate("+ 
-// 		    	map.latLngToLayerPoint(d.LatLng).x +","+ 
-// 		    	map.latLngToLayerPoint(d.LatLng).y +")";
-// 		    })
-// 		}
-//      });
-// 	d3.csv('data/marlodge.csv',function(csv){		
-// 		make_map(csv);
-// 	});
+    //push array of people to DOM
+    $('#card-wrap').html(quarryPeople);
+        
 
       
-})(this, document);
+  });
+  //END MAKE CARDS
+
+
+
+  //========================================================
+  // WRAPPER PADDING
+  //========================================================
+
+  $( window ).resize(function() {
+    setWrapperTop()
+  })
+
+  var setWrapperTop = function() {
+    var offset =  filterSection.offsetHeight + header.offsetHeight;
+    wrapper.style.setProperty("top", offset + "px");
+  }
+
+
+  //========================================================
+  //FIRST PAGE RUN
+  //========================================================
+  setWrapperTop();
+  make_cards(members);
+
+
+
+
+      
+});
+
