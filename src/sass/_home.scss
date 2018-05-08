@@ -82,6 +82,7 @@ div { position: relative; }
   overflow: scroll;
   position: fixed;
   top: 64px;
+  height: calc(100% - 64px);
   z-index: 10;
   background: white;
   width: 100%;
@@ -89,7 +90,7 @@ div { position: relative; }
   
   @media screen and (max-width: 900px) {
     padding: 12px 24px 6px 24px;
-  } 
+  }
 }
 
 .pageview {
@@ -214,6 +215,7 @@ div { position: relative; }
   
   @media screen and (max-width: $small) {
     max-width: $small;
+    margin: 0;
   }
 
   @media screen and (max-width: 900px) {
