@@ -5,18 +5,18 @@
 
 
 
-body { 
+html, body, p { 
  colour: $ink;
  font-family: 'Roboto', sans-serif;
+ line-height: 1.333;
 }
 
 h1 {
-	color: darken($grey, 10);
-	font-family: 'Roboto', sans-serif;
+	color: $green1;
+	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-	font-size: 22px;
-	text-align: center;
-	margin: 24px 0 16px 0;
+	font-size: 36px;
+	margin: 0 0 12px 0;
 }
 
 h2 { 
@@ -38,4 +38,9 @@ h5 {
 	font-weight: 400;
 	font-size: 11px;
 	margin: 0 0;
+}
+
+p {
+	margin: 0 0 16px 0;
+	color: $dgrey;
 }
