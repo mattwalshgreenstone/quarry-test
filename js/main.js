@@ -33,9 +33,13 @@ $(document).ready(function() {
     
     for ( var i=0; i < members.length; i++ ) {
       for ( key in members[i] ) {
-        if ( members[i][key].toLowerCase().indexOf( searchText )!=-1 ) {
-          results.push( members[i] );
-          break;
+        //only search text fields
+        if ( typeof members[i][key] == "string" ) {
+            //convert to lower case  
+            if ( members[i][key].toLowerCase().indexOf( searchText )!=-1 ) {
+              results.push( members[i] );
+              break;
+            }
         }
       }
     } //end for loop
