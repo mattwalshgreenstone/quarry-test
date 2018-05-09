@@ -5,7 +5,7 @@
 
 $ink: #000030;
 
-
+$dgrey: lighten(black, 50%);
 $grey: #CACCD9;
 $lgrey: #E2E2E2;
 $vlgrey: #F2F2F2;
@@ -17,6 +17,7 @@ $fbblue: #4768AD;
 
 
 $short: 0.3s;
+$shortmid: 0.45s;
 $mid: 0.6s;
 $long: 0.9s;
 $vLong: 1.5s;
