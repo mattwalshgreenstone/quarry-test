@@ -85,12 +85,6 @@ $(document).ready(function() {
 
   $('.filter').click( function(event) {
 
-    //    var filteredMembers = $.grep(members, function (member, i) {
-    //      return member.role == filter;
-    //    });
-
-    //    make_cards(filteredMembers);
-
     // fill text box with text
     searchbox.value = event.target.textContent;
     performSearch( searchText )
@@ -186,8 +180,12 @@ $(document).ready(function() {
   var setWrapperTop = function() {
     var offset =  filterSection.offsetHeight + header.offsetHeight;
     wrapper.style.setProperty("top", offset + "px");
+    wrapper.style.setProperty("height", "calc(100% - " + offset +  "px)")
   }
 
+
+
+  
 
   //========================================================
   //FIRST PAGE RUN

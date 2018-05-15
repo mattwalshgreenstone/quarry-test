@@ -10,8 +10,8 @@
   @@include('./inc/header.html')
   
  <div class="page-content">
-	 <!-- filters -->
-	  <div id="filter-section" class="filter-section">
+	 !-- filters -->
+	 <div id="filter-section" class="filter-section">
 		<!-- <h1 class="page">Search the Quarry</h1> -->
 		<div class="search-title-wrap">
 			<h5 class="m-bot-sml search-title">Find a member:</h5>
@@ -21,17 +21,22 @@
 		  		<input type="text" id="searchbox" name="searchbox" class="textbox" placeholder='E.g. "Design", "New York" '>
 		  	</div>
 		</div>
+		<!-- Search tags -->
 	  	<div class="search-filter-wrap">
 	  		<h5 class="m-bot-sml">Popular searches:</h5>
 	    	<div id="filter-wrap" class="filter-wrap"></div>
 	    </div>
 
-	  </div>
+	 </div>
 
-	 	<div id="wrapper" class="wrapper">
-		   <!-- cards -->
-		 	 <div class="card-wrap" id="card-wrap"></div>
-		</div>
+	 <div id="wrapper" class="wrapper">
+		<!-- cards -->
+		<div class="card-wrap" id="card-wrap"></div>
+		@@include('./inc/footer.html')
+	</div>
+
+	
+
 </div>
 
 <script src="js/vendor/jquery-2.1.1.min.js"></script>

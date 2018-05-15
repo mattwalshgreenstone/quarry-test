@@ -44,3 +44,13 @@ p {
 	margin: 0 0 16px 0;
 	color: $dgrey;
 }
+
+a {
+	&:hover {
+		color: $green2;
+	}
+}
+
+.text-grey { color: $dgrey; }
+
+

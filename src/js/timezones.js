@@ -22,6 +22,20 @@ $(document).ready(function() {
   console.log( lastzone );
   console.log( divisions );
 
+
+
+
+  //========================================================
+  // TIMEZONE
+  //========================================================
+
+
+  var offset = new Date().getTimezoneOffset();
+  console.log(offset);
+
+  var hrs = -(new Date().getTimezoneOffset() / 60)
+
+  console.log(hrs)
   
 
 
