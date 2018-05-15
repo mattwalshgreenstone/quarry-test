@@ -9,9 +9,7 @@ window.onload = function () {
   var userHours = -(new Date().getTimezoneOffset() / 60)
   var userZone = new Date().toString().split(" ");
   var timeZoneFormatted = userZone[userZone.length - 2] + " " + userZone[userZone.length - 1];
-
-  console.log("Your timezone: " + timeZoneFormatted)
-  console.log("offset in hours " + userHours)
+  var timeZoneArea = new Date().toString().match(/\(([A-Za-z\s].*)\)/)[1];
 
   //========================================================
   //Member timezone calcs
@@ -30,25 +28,10 @@ window.onload = function () {
   //number of timezones between earliest + latest
   var divisions = lastZone - firstZone + 1;
 
-  console.log( "alltimes " + allTimes );
-  console.log( "firstzone " + firstZone );
-  console.log( "lastzone " + lastZone );
-  console.log( "divisions  " + divisions );
-
-  //adjust timezones based on user timezone
-  // for (var i = 0; i < allTimes.length; i++) {
-  //   allTimes[i] === allTimes[i] - userZone;
-  // };
-  
-
-
-
-
   //create blocks for each time zone
   var zoneWrap = document.getElementById("timezone-wrap");
 
-
-
+  //define text for ID names
   var allZones = "";
   var zoneIDprefix = "zonenum-";
   var zonePeoplePrefix = "zone-p-";
@@ -60,15 +43,25 @@ window.onload = function () {
     
     //set text for heading
     var zoneText = zoneNum;
-    if ( zoneText > 0 ) { zoneText = "+" + zoneText; }
-    if ( zoneText == 0 ) { zoneText = "Your time zone"; }
+    
+    if ( zoneText == 0 ) { 
+      zoneText = "Your timezone"; 
+      areaCode = "(" + timeZoneArea + ")";
+    }
+    if ( zoneText > 0 ) { 
+      zoneText = "+" + zoneText;
+      areaCode = "";
+    }
+    if ( zoneText < 0 ) { 
+      areaCode = "";
+    }
 
     //Set template for timezone divs
     var oneZone = 
-      '<div class="zonewrap" id="' + (zoneIDprefix + zoneNum)
+      '<div class="zonewrap empty" id="' + (zoneIDprefix + zoneNum)
       + '">' 
-        + '<h1>' + zoneText + '</h1>'
-        + '<div id="' + (zonePeoplePrefix + zoneNum) + '"></div>'
+        + '<h2>' + zoneText + ' <span class="subzoneText">' + areaCode + '</span>'  + '</h2>'
+        + '<div class="zone-ppl" id="' + (zonePeoplePrefix + zoneNum) + '"></div>'
       + '</div>';
    
 
@@ -85,6 +78,7 @@ window.onload = function () {
       var currentZone = allTimes[i];
       var currentZoneAdjusted = currentZone - userHours;
       var zoneSelector = zonePeoplePrefix + currentZoneAdjusted;
+      var wrapSelector = zoneIDprefix + currentZoneAdjusted;
       var zonePeople = timeZoneGroups[currentZone]
 
       //for each person in timezone
@@ -103,37 +97,16 @@ window.onload = function () {
           
       }
 
+      //push people html to inside zone
       document.getElementById(zoneSelector).innerHTML = allZonePeople;
+      //remove empty class from zone wrap
+      document.getElementById(wrapSelector).classList = "zonewrap"
+
   }
 
 
 
-  // var makeTimeZones = (function( data ) {
-  //   console.log(data)
-  //   data[-7].forEach( function ( entry )  {
-  //     console.log(entry)
-  //   });
-  // }); //end makeTimeZones
-
-
-
-
-
-  // makeTimeZones( timeZoneGroups )
-
-
-
   
-  
-
-
-
-
-
-
-
-
-
 
 
 

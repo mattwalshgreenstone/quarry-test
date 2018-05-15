@@ -131,11 +131,11 @@ $(document).ready(function() {
   //MAKING CARDS
   //========================================================
 
-  var make_cards = (function(data){
+  var make_cards = (function( data ){
     //clear html content variable
     var quarryPeople = "";  
     
-    data.forEach(function(entry) {
+    data.forEach(function( entry ) {
 
         // Add people to collection
           //create template
@@ -160,7 +160,7 @@ $(document).ready(function() {
      });
 
     //push array of people to DOM
-    $('#card-wrap').html(quarryPeople);
+    $('#card-wrap').html( quarryPeople );
         
 
       
