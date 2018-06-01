@@ -72,6 +72,14 @@ var members = [
    "utcOffset": -6
  },
  {
+   "name": "Brian Skahan",
+   "role": "MD",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/bskahan/",
+   "imagefile": "briansk.jpg",
+   "utcOffset": -7
+ },
+ {
    "name": "Cameron Reagan",
    "role": "Design",
    "location": "Columbus, OH",
