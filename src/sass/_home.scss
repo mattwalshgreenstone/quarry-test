@@ -35,6 +35,11 @@ div { position: relative; }
 .t-center { text-align: center; }
 .m-bot-sml { margin-bottom: 8px; }
 .m-bot-none { margin-bottom: 0; }
+.m-top-lrg { margin-top: 48px; }
+
+.l-border-grey { border-left: 1px solid $lgrey; }
+
+.inline-block { display: inline-block;}
 
 
 .body-people .marker-people { font-weight: 600; }
@@ -49,12 +54,10 @@ div { position: relative; }
   position: fixed;
   z-index: 100;
 
-  @media screen and (max-width: $small) {
-    padding: 14px 16px;
-  }
-
+  
   .header-link {
     float: right;
+    font-size: 16px;
     color: white;
     text-decoration: none;
     padding: 8px 0;
@@ -62,6 +65,14 @@ div { position: relative; }
 
     &:hover {
       color: $ink;
+    }
+  }
+
+  @media screen and (max-width: $small) {
+    padding: 14px 16px;
+
+    .header-link {
+      margin-right: 12px;
     }
   }
 }
@@ -73,7 +84,7 @@ div { position: relative; }
   top: 16px;
 }
 
-@media screen and (max-width: $small) {
+@media screen and (max-width: $medium) {
   .mini-logo {  
     left: 16px;
    } 
@@ -91,11 +102,6 @@ div { position: relative; }
   z-index: 10;
   background: white;
   width: 100%;
-  padding: 16px 24px 8px 24px;
-  
-  @media screen and (max-width: 900px) {
-    padding: 12px 24px 6px 24px;
-  }
 }
 
 .pageview {
@@ -109,8 +115,17 @@ div { position: relative; }
   }
 }
 
+.content-padding {
+  padding: 16px 24px 8px 24px;
+  
+  @media screen and (max-width: 900px) {
+    padding: 12px 24px 6px 24px;
+  }
+}
+
 .btn-fb {
   background-color: $fbblue;
+  font-size: 16px;
   border-radius: 3px;
   color: white;
   padding: 8px 16px;

@@ -28,7 +28,7 @@ h2 {
 
 h3, a {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 18px;
 	color: $green1;
 	margin: 0 0 8px 0;
 }
@@ -48,7 +48,9 @@ h5 {
 
 p {
 	margin: 0 0 16px 0;
-	color: $dgrey;
+	color: $ink;
+	font-size: 18px;
+	line-height: 27px;
 }
 
 a {
@@ -57,6 +59,6 @@ a {
 	}
 }
 
-.text-grey { color: $dgrey; }
+.text-grey { color: $ink; }
 
 
