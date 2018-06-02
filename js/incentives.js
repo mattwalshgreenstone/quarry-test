@@ -62,14 +62,32 @@ window.onload = function () {
 
 
 
+//========================================================
+// incentives open / close
+//========================================================
+  
+var expandLink = document.getElementById("expand-incentives");
+var incentiveWrap = document.getElementById("bands-wrap");
+var closeIncentives = document.getElementById("close-btn");
+
+expandLink.addEventListener("click", function() {
+    jsOpen();
+});
+
+closeIncentives.addEventListener("click", function() {
+  jsOpen();
+});
 
 
 
-
-
-
-
-
+var jsOpen = function() {
+  if (incentiveWrap.classList.contains('js-open')) {
+    
+      incentiveWrap.classList.remove('js-open');
+   } else {
+      incentiveWrap.classList.add('js-open');
+   }
+}
 
 
 

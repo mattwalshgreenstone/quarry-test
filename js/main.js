@@ -85,12 +85,6 @@ $(document).ready(function() {
 
   $('.filter').click( function(event) {
 
-    //    var filteredMembers = $.grep(members, function (member, i) {
-    //      return member.role == filter;
-    //    });
-
-    //    make_cards(filteredMembers);
-
     // fill text box with text
     searchbox.value = event.target.textContent;
     performSearch( searchText )
@@ -137,11 +131,11 @@ $(document).ready(function() {
   //MAKING CARDS
   //========================================================
 
-  var make_cards = (function(data){
+  var make_cards = (function( data ){
     //clear html content variable
     var quarryPeople = "";  
     
-    data.forEach(function(entry) {
+    data.forEach(function( entry ) {
 
         // Add people to collection
           //create template
@@ -166,7 +160,7 @@ $(document).ready(function() {
      });
 
     //push array of people to DOM
-    $('#card-wrap').html(quarryPeople);
+    $('#card-wrap').html( quarryPeople );
         
 
       
@@ -186,8 +180,12 @@ $(document).ready(function() {
   var setWrapperTop = function() {
     var offset =  filterSection.offsetHeight + header.offsetHeight;
     wrapper.style.setProperty("top", offset + "px");
+    wrapper.style.setProperty("height", "calc(100% - " + offset +  "px)")
   }
 
+
+
+  
 
   //========================================================
   //FIRST PAGE RUN

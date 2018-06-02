@@ -5,7 +5,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/allen-c-richardson/",
    "imagefile": "allenr.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Allison Scott",
@@ -13,7 +13,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/allisonscott87/",
    "imagefile": "allisons.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Angel Anderson",
@@ -21,7 +21,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/angeljanderson/",
    "imagefile": "angelan.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Aoife Gibbs",
@@ -29,7 +29,7 @@ var members = [
    "location": "San Francisco, CA",
    "linkedin": "https://www.linkedin.com/in/aoifegibbs/",
    "imagefile": "aoifegib.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Ariana de Ryss",
@@ -37,7 +37,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/ariana-de-ryss/",
    "imagefile": "ariana.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Armina Foroughi",
@@ -45,7 +45,7 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/armina-foroughi-419981114/",
    "imagefile": "arminaf.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Avery Prommer",
@@ -53,7 +53,7 @@ var members = [
    "location": "Davis, CA",
    "linkedin": "https://www.linkedin.com/in/avery-prommer-98b45a2/",
    "imagefile": "averyp.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Beth Koloski",
@@ -61,7 +61,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/bkoloski/",
    "imagefile": "bethk.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Bobby Grober",
@@ -69,7 +69,15 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/rgrober/",
    "imagefile": "bobbyg.jpg",
-   "timezone": 1
+   "utcOffset": -6
+ },
+ {
+   "name": "Brian Skahan",
+   "role": "MD",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/bskahan/",
+   "imagefile": "briansk.jpg",
+   "utcOffset": -7
  },
  {
    "name": "Cameron Reagan",
@@ -77,7 +85,7 @@ var members = [
    "location": "Columbus, OH",
    "linkedin": "https://www.linkedin.com/in/cameron-reagan-010a5817/",
    "imagefile": "cameraonr.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Carl St. Philip",
@@ -85,7 +93,7 @@ var members = [
    "location": "Key West, FL",
    "linkedin": "https://www.linkedin.com/in/carl-st-philip-10900b7/",
    "imagefile": "carls.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Chance Woodward",
@@ -93,7 +101,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/chancewoodward/",
    "imagefile": "chance.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Charles Law",
@@ -101,7 +109,7 @@ var members = [
    "location": "Toronto, ON",
    "linkedin": "https://www.linkedin.com/in/charleslaw/",
    "imagefile": "charles.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Charlie Humphries",
@@ -109,7 +117,7 @@ var members = [
    "location": "Austin, TX",
    "linkedin": "https://www.linkedin.com/in/charliehumphries/",
    "imagefile": "charliehum.jpg",
-   "timezone": 2
+   "utcOffset": -5
  },
  {
    "name": "Chelsea Janssen",
@@ -117,7 +125,15 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/chelsea-b-janssen-90552411/",
    "imagefile": "chelseaj.jpg",
-   "timezone": 1
+   "utcOffset": -6
+ },
+ {
+   "name": "Christian Layugan",
+   "role": "Design",
+   "location": "Miami, FL",
+   "linkedin": "",
+   "imagefile": "christianla.jpg",
+   "utcOffset": -4
  },
  {
    "name": "Christine Poh",
@@ -125,7 +141,7 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/christinepoh/",
    "imagefile": "christinepoh.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Corey Szopinski",
@@ -133,7 +149,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/coreyszopinski/",
    "imagefile": "coreys.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Daniela Cardona",
@@ -141,7 +157,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/daniela-cardona-885a9284/",
    "imagefile": "danielacar.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Darren Himebrook",
@@ -149,7 +165,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/darrenhimebrook/",
    "imagefile": "darrenh.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "David Hyung",
@@ -157,7 +173,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/davidhyung/",
    "imagefile": "davidh.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Davis Kramer",
@@ -165,7 +181,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/davis-kramer-28238220/",
    "imagefile": "davisk.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Fran Webb",
@@ -173,7 +189,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/franceswebb/",
    "imagefile": "franwebb.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Gabriela Medina Florez",
@@ -181,7 +197,7 @@ var members = [
    "location": "San Francisco, CA",
    "linkedin": "https://www.linkedin.com/in/gmedin21/",
    "imagefile": "gabbymed.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Heather Miller",
@@ -189,7 +205,7 @@ var members = [
    "location": "Portland, OR",
    "linkedin": "https://www.linkedin.com/in/heather-miller-300a5910b/",
    "imagefile": "heathermil.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Ian Black ",
@@ -197,7 +213,7 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "www.linkedin.com/in/itomblack",
    "imagefile": "ian.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Ian Campbell",
@@ -205,7 +221,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/4thofficial/",
    "imagefile": "iancamp.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Inah Mercedes",
@@ -213,7 +229,7 @@ var members = [
    "location": "Miami, FL",
    "linkedin": "https://www.linkedin.com/in/inahmercedes/",
    "imagefile": "inah.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Isaac Leon",
@@ -221,7 +237,7 @@ var members = [
    "location": "Barcelona, Spain",
    "linkedin": "https://www.linkedin.com/in/isaac-leon-6b37548/",
    "imagefile": "isaacleon.jpg",
-   "timezone": 9
+   "utcOffset": 2
  },
  {
    "name": "Jeb Tilly",
@@ -229,7 +245,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/jtilly/",
    "imagefile": "jebt.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Jenna Gold",
@@ -237,7 +253,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/jennaegold/",
    "imagefile": "jennag.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Jenny Jeanine Taylor",
@@ -245,7 +261,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/jennyjptaylor/",
    "imagefile": "jennytay.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Jeremy Hamman",
@@ -253,7 +269,7 @@ var members = [
    "location": "Clinton, NY",
    "linkedin": "https://www.linkedin.com/in/fatandhandsome/",
    "imagefile": "jeremyh.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "John Benedict",
@@ -261,7 +277,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/benedictlikeeggs/",
    "imagefile": "johnben.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Jonathan Ayers",
@@ -269,7 +285,7 @@ var members = [
    "location": "Columbus, OH",
    "linkedin": "https://www.linkedin.com/in/jb-ayers-0b5883a/",
    "imagefile": "jonayers.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Jordan Fripp",
@@ -277,7 +293,7 @@ var members = [
    "location": "Atlanta, GA",
    "linkedin": "https://www.linkedin.com/in/jordanfripp/",
    "imagefile": "jordanf.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Joseph R. Salvati",
@@ -285,7 +301,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/josephsalvati/",
    "imagefile": "joesalv.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Josh Mantooth",
@@ -293,7 +309,7 @@ var members = [
    "location": "Austin, TX",
    "linkedin": "https://www.linkedin.com/in/joshmantooth/",
    "imagefile": "joshman.jpg",
-   "timezone": 2
+   "utcOffset": -5
  },
  {
    "name": "Joshua Bletterman",
@@ -301,7 +317,7 @@ var members = [
    "location": "Garrison, NY",
    "linkedin": "https://www.linkedin.com/in/joshuabletterman/",
    "imagefile": "joshb.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Kaleem Khan",
@@ -309,7 +325,7 @@ var members = [
    "location": "Toronto, ON",
    "linkedin": "https://www.linkedin.com/in/kaleem/",
    "imagefile": "kaleem-ux.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Kathryn White",
@@ -317,7 +333,7 @@ var members = [
    "location": "Jamestown, CO",
    "linkedin": "https://www.linkedin.com/in/kathryn-white-08502499/",
    "imagefile": "kathrynw.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Katie Miller",
@@ -325,7 +341,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/katielmiller/",
    "imagefile": "katiemil.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Koert Bakker",
@@ -333,7 +349,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/koertbakker/",
    "imagefile": "koertbak.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Kristina Nilsson",
@@ -341,7 +357,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/nilssonkristina/",
    "imagefile": "kristinanil.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Lou Thor",
@@ -349,7 +365,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/louthor/",
    "imagefile": "lout.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Mara Walsh",
@@ -357,7 +373,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/mara-walsh-64a4527/",
    "imagefile": "maraw.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Marlon Hernandez",
@@ -365,7 +381,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/mhlive/",
    "imagefile": "marlonher.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Matt Walsh",
@@ -373,7 +389,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/mattwalsh/",
    "imagefile": "matt.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Max Brettler",
@@ -381,7 +397,7 @@ var members = [
    "location": "Seattle, WA",
    "linkedin": "https://www.linkedin.com/in/max-brettler-686a9b8a/",
    "imagefile": "maxbret.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Miguel Medina",
@@ -389,7 +405,7 @@ var members = [
    "location": "Barcelona, Spain",
    "linkedin": "https://www.linkedin.com/in/miguelmedina/",
    "imagefile": "miguelmed.jpg",
-   "timezone": 9
+   "utcOffset": 2
  },
  {
    "name": "Mike Hansen",
@@ -397,7 +413,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/moosesyrup/",
    "imagefile": "mikehan.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Mike Slone",
@@ -405,7 +421,7 @@ var members = [
    "location": "Nice, France",
    "linkedin": "https://www.linkedin.com/in/mikebslone/",
    "imagefile": "mikeslo.jpg",
-   "timezone": 9
+   "utcOffset": 2
  },
  {
    "name": "Misook Ji",
@@ -413,7 +429,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/misookji/",
    "imagefile": "misookji.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Nand Dussault",
@@ -421,7 +437,7 @@ var members = [
    "location": "Columbus, OH",
    "linkedin": "https://www.linkedin.com/in/nanddussault/",
    "imagefile": "nanddus.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Noel Franus",
@@ -429,7 +445,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/noelfranus/",
    "imagefile": "noelfran.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Philip Anthony Gahol",
@@ -437,7 +453,7 @@ var members = [
    "location": "Milan, Italy",
    "linkedin": "https://www.linkedin.com/in/anton-gahol/",
    "imagefile": "philipgah.jpg",
-   "timezone": 9
+   "utcOffset": 2
  },
  {
    "name": "Priya Chitre Shah",
@@ -445,7 +461,7 @@ var members = [
    "location": "Boston, MA",
    "linkedin": "https://www.linkedin.com/in/priyacshah/",
    "imagefile": "pritashah.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Rachael Eckersley",
@@ -453,7 +469,7 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/rachael-eckersley-86974668/",
    "imagefile": "racheleck.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Rebekah VanOverbeke",
@@ -461,7 +477,7 @@ var members = [
    "location": "Chicago, IL",
    "linkedin": "https://www.linkedin.com/in/rebekahvanoverbeke/",
    "imagefile": "rebekahvan.jpg",
-   "timezone": 2
+   "utcOffset": -5
  },
  {
    "name": "Rene Rodriguez",
@@ -469,7 +485,7 @@ var members = [
    "location": "St Paul, MN",
    "linkedin": "https://www.linkedin.com/in/seerenespeak/",
    "imagefile": "renerod.jpg",
-   "timezone": 2
+   "utcOffset": -5
  },
  {
    "name": "Ronan Kenny",
@@ -477,7 +493,7 @@ var members = [
    "location": "Dublin, Ireland",
    "linkedin": "https://www.linkedin.com/in/kennyronan/",
    "imagefile": "ronank.jpg",
-   "timezone": 8
+   "utcOffset": 1
  },
  {
    "name": "Sarah Barrow",
@@ -485,7 +501,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/scbarrow/",
    "imagefile": "sarah.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Scott Potter",
@@ -493,7 +509,7 @@ var members = [
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/scottrpotter/",
    "imagefile": "scottp.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Sean Cardiff",
@@ -501,7 +517,7 @@ var members = [
    "location": "Calgary, AB",
    "linkedin": "https://www.linkedin.com/in/seancardiff/",
    "imagefile": "seanca.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Sean Curran",
@@ -509,7 +525,7 @@ var members = [
    "location": "Portland, ME",
    "linkedin": "https://www.linkedin.com/in/srcurran/",
    "imagefile": "seancur.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Shaz Sedighzadeh",
@@ -517,7 +533,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/shazsedighzadeh/",
    "imagefile": "shazsed.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Shiva Farrokhi",
@@ -525,7 +541,7 @@ var members = [
    "location": "Portland, OR",
    "linkedin": "https://www.linkedin.com/in/shiva-farrokhi-1758366b/",
    "imagefile": "shivafar.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Sophia Prater",
@@ -533,7 +549,7 @@ var members = [
    "location": "Atlanta, GA",
    "linkedin": "https://www.linkedin.com/in/sophiav/",
    "imagefile": "sophiap.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Sophie Cummings",
@@ -541,7 +557,7 @@ var members = [
    "location": "Broomfield, CO",
    "linkedin": "https://www.linkedin.com/in/sophie-cummings1/",
    "imagefile": "sophiecum.jpg",
-   "timezone": 1
+   "utcOffset": -6
  },
  {
    "name": "Stephanie Krivitzky",
@@ -549,7 +565,7 @@ var members = [
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/stephaniekrivitzky/",
    "imagefile": "stephkri.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Steven Erich",
@@ -557,7 +573,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/stevenerich/",
    "imagefile": "stevener.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Sumeet Anand",
@@ -565,7 +581,7 @@ var members = [
    "location": "Toronto, ON",
    "linkedin": "https://www.linkedin.com/in/anandsumeet/",
    "imagefile": "sumeetan.jpg",
-   "timezone": 3
+   "utcOffset": -4
  },
  {
    "name": "Tara Greer",
@@ -573,7 +589,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/taragreer/",
    "imagefile": "tara.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Ted Ripple",
@@ -581,7 +597,7 @@ var members = [
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/tedripple/",
    "imagefile": "tedr.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "TJ Tshionyi",
@@ -589,7 +605,7 @@ var members = [
    "location": "San Francisco, CA",
    "linkedin": "https://www.linkedin.com/in/tshionyi/",
    "imagefile": "tjtsh.jpg",
-   "timezone": 0
+   "utcOffset": -7
  },
  {
    "name": "Will Crowe",
@@ -597,6 +613,6 @@ var members = [
    "location": "Dallas, TX",
    "linkedin": "https://www.linkedin.com/in/will-crowe-237b2a85/",
    "imagefile": "willcr.jpg",
-   "timezone": 2
+   "utcOffset": -5
  }
 ]
