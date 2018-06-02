@@ -13,7 +13,7 @@
   
   <title>The Quarry</title> 
 </head>
-<body>
+<body class="body-people">
 
    <div id="header" class="header">  
 	<a href="./index.html">
@@ -22,13 +22,15 @@
 	</a>
 	
 	<a href="http://from.gs/thequarry" target="_blank" class="btn-fb">Join</a>
-	<a href="./incentives.html" class="header-link">Incentives</a>
+	<a href="./incentives.html" class="header-link marker-incentives">Incentives</a>
+<!-- 	<a href="./timezones.html" class="header-link marker-timezones">Timezones</a> -->
+	<a href="./index.html" class="header-link marker-people">People</a>
 </div>
 
   
- <div class="page-content">
-	 <!-- filters -->
-	  <div id="filter-section" class="filter-section">
+ <div class="page-content content-padding">
+	 !-- filters -->
+	 <div id="filter-section" class="filter-section">
 		<!-- <h1 class="page">Search the Quarry</h1> -->
 		<div class="search-title-wrap">
 			<h5 class="m-bot-sml search-title">Find a member:</h5>
@@ -38,17 +40,26 @@
 		  		<input type="text" id="searchbox" name="searchbox" class="textbox" placeholder='E.g. "Design", "New York" '>
 		  	</div>
 		</div>
+		<!-- Search tags -->
 	  	<div class="search-filter-wrap">
 	  		<h5 class="m-bot-sml">Popular searches:</h5>
 	    	<div id="filter-wrap" class="filter-wrap"></div>
 	    </div>
 
-	  </div>
+	 </div>
 
-	 	<div id="wrapper" class="wrapper">
-		   <!-- cards -->
-		 	 <div class="card-wrap" id="card-wrap"></div>
-		</div>
+	 <div id="wrapper" class="wrapper">
+		<!-- cards -->
+		<div class="card-wrap" id="card-wrap"></div>
+		<div class="footer-wrap">
+	<a href="https://goo.gl/forms/FrVLz9xqyo3n12L62" target="_blank" class="text-grey" alt="feedback form">Something wrong? Tell us</a>
+
+	<img src="img/icons/gs-animate.gif" alt="Green Stone Logo" class="centre-logo">
+</div>
+	</div>
+
+	
+
 </div>
 
 <script src="js/vendor/jquery-2.1.1.min.js"></script>
