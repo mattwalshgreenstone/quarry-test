@@ -78,7 +78,7 @@
       left: 0;
       top: -2px;
       font-size: 21px;
-      color: $green1;
+      color: $blue1;
     }
   }
 }
@@ -167,10 +167,6 @@
   margin-bottom: 8px;
   border-bottom: 1px solid rgba( white, .15 );
   transition: all $mid ease;
-
-  &:last-of-type {
-    // border: none;
-  }
 }
 
 .terms-wrap {
