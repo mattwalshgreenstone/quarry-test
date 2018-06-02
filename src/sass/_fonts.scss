@@ -1,0 +1,67 @@
+//===============================================================================
+// FONTS
+//===============================================================================
+
+
+
+
+html, body, p { 
+ colour: $ink;
+ font-family: 'Roboto', sans-serif;
+ line-height: 1.333;
+}
+
+h1 {
+	color: $green1;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin: 0 0 12px 0;
+}
+
+h2 { 
+	color: $green2;
+	font-family: 'Roboto Slab', serif;
+	font-size: 22px;
+	margin: 8px 0;
+}
+
+h3, a {
+	font-weight: 400;
+	font-size: 18px;
+	margin: 0 0 8px 0;
+}
+
+h3 { color: $blue1; }
+
+
+h4 {
+	font-size: 14px;
+	display: inline-block;
+	margin: 0;
+}
+
+h5 {
+	color: darken($grey, 10);
+	font-weight: 400;
+	font-size: 11px;
+	margin: 0 0;
+}
+
+p {
+	margin: 0 0 16px 0;
+	color: $ink;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+a {
+	color: $green1;
+	&:hover {
+		color: $green2;
+	}
+}
+
+.text-grey { color: $ink; }
+
+
