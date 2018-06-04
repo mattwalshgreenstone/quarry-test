@@ -45,7 +45,7 @@ window.onload = function () {
     var zoneText = zoneNum;
     
     if ( zoneText == 0 ) { 
-      zoneText = "Your timezone"; 
+      zoneText = "You "; 
       areaCode = "(" + timeZoneArea + ")";
     }
     if ( zoneText > 0 ) { 
@@ -60,7 +60,7 @@ window.onload = function () {
     var oneZone = 
       '<div class="zonewrap empty" id="' + (zoneIDprefix + zoneNum)
       + '">' 
-        + '<h2>' + zoneText + ' <span class="subzoneText">' + areaCode + '</span>'  + '</h2>'
+        + '<div class="zone-header"><h2>' + zoneText + ' <span class="subzoneText">' + areaCode + '</span>'  + '</h2></div>'
         + '<div class="zone-ppl" id="' + (zonePeoplePrefix + zoneNum) + '"></div>'
       + '</div>';
    
