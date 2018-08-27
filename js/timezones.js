@@ -10,6 +10,7 @@ window.onload = function () {
   var userZone = new Date().toString().split(" ");
   var timeZoneFormatted = userZone[userZone.length - 2] + " " + userZone[userZone.length - 1];
   var timeZoneArea = new Date().toString().match(/\(([A-Za-z\s].*)\)/)[1];
+  var timeZoneAreaShort = new Date().toLocaleTimeString('en-us',{timeZoneName:'short'}).split(' ')[2];
 
   //========================================================
   //Member timezone calcs
@@ -45,8 +46,8 @@ window.onload = function () {
     var zoneText = zoneNum;
     
     if ( zoneText == 0 ) { 
-      zoneText = "Your timezone"; 
-      areaCode = "(" + timeZoneArea + ")";
+      zoneText = "You "; 
+      areaCode = "(" + timeZoneAreaShort + ")";
     }
     if ( zoneText > 0 ) { 
       zoneText = "+" + zoneText;
@@ -60,7 +61,7 @@ window.onload = function () {
     var oneZone = 
       '<div class="zonewrap empty" id="' + (zoneIDprefix + zoneNum)
       + '">' 
-        + '<h2>' + zoneText + ' <span class="subzoneText">' + areaCode + '</span>'  + '</h2>'
+        + '<div class="zone-header"><h2>' + zoneText + ' <span class="subzoneText">' + areaCode + '</span>'  + '</h2></div>'
         + '<div class="zone-ppl" id="' + (zonePeoplePrefix + zoneNum) + '"></div>'
       + '</div>';
    
