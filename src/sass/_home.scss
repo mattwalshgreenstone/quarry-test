@@ -75,6 +75,27 @@ div { position: relative; }
       margin-right: 12px;
     }
   }
+
+  @media screen and (max-width: $tiny) {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .btn-fb {
+      font-size: 12px;
+      padding: 4px 8px;
+      margin: 4px 0px;
+    }
+    .header-link {
+      font-size: 12px;
+      margin: 0 12px 0 0;
+    }
+
+    .mini-logo {
+      margin-bottom: 0px;
+    }
+  }
 }
 
 .full-logo, .mini-logo {
