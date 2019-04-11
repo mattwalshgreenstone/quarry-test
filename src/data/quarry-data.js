@@ -1,5 +1,21 @@
 var members = [
  {
+ "name": "Abby Bridges", 
+ "role": "Experience",
+ "location": "Santa Monica, CA", 
+ "linkedin": "https://www.linkedin.com/in/abbybridges/", 
+ "imagefile": "abbyb.jpg",
+ "utcOffset": "-7", 
+ },
+ {
+ "name": "Allegra Poschmann",
+ "role": "Design", 
+ "location": "Montreal, Que",
+ "linkedin": "https://www.linkedin.com/in/allegra-poschmann-66ab8421/",
+ "imagefile": "Allegra.jpg", 
+ "utcOffset": -4, 
+ },
+ {
    "name": "Allen Richardson",
    "role": "Creative",
    "location": "Boulder, CO",
@@ -16,6 +32,22 @@ var members = [
    "utcOffset": -6
  },
  {
+  "name": "Ana Andjelic",
+  "role": "Strategy", 
+  "location": "New York, NY" 
+  "linkedin": "https://www.linkedin.com/in/anaandjelic/", 
+  "imagefile": "anaj.jpg",
+  "utcOffset": "-4", 
+ },
+ {
+  "name": "Andy Burdin", 
+  "role": "Design",
+  "location": "Venice, CA", 
+  "linkedin": "https://www.linkedin.com/in/andyburdin/", 
+  "imagefile": "andyb",
+  "utcOffset": "-7",
+ },
+ {
    "name": "Angel Anderson",
    "role": "Speaker",
    "location": "Los Angeles, CA",
@@ -24,12 +56,20 @@ var members = [
    "utcOffset": -7
  },
  {
+  "name": "Andrew Perry", 
+  "role": "Design", 
+  "location": "Denver, CO",
+  "linkedin": "Design",
+  "imagefile": "andrewp.jpg",
+  "utcOffset": "-6",
+ },
+ {
    "name": "Aoife Gibbs",
    "role": "Design",
    "location": "San Francisco, CA",
    "linkedin": "https://www.linkedin.com/in/aoifegibbs/",
    "imagefile": "aoifegib.jpg",
-   "utcOffset": -7
+   "utcOffset": -7,
  },
  {
    "name": "Ariana de Ryss",
@@ -37,7 +77,7 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/ariana-de-ryss/",
    "imagefile": "ariana.jpg",
-   "utcOffset": -6
+   "utcOffset": -6,
  },
  {
    "name": "Armina Foroughi",
@@ -45,7 +85,7 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/armina-foroughi-419981114/",
    "imagefile": "arminaf.jpg",
-   "utcOffset": -7
+   "utcOffset": -7,
  },
  {
    "name": "Avery Prommer",
@@ -53,6 +93,22 @@ var members = [
    "location": "Davis, CA",
    "linkedin": "https://www.linkedin.com/in/avery-prommer-98b45a2/",
    "imagefile": "averyp.jpg",
+   "utcOffset": -7,
+ },
+ {
+  "name": "Aya Karpinska",
+  "role": "Experience", 
+  "location": "New York, NY", 
+  "linkedin": "https://www.linkedin.com/in/ayakarpinska/", 
+  "imagefile": "ayak.jpg",
+  "utcOffset": "-4",
+   },
+ {
+   "name": "Ben Mayjoy",
+   "role": "Copywriting",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/benmajoy/",
+   "imagefile": "benmay.jpg",
    "utcOffset": -7
  },
  {
@@ -96,6 +152,14 @@ var members = [
    "utcOffset": -4
  },
  {
+  "name": "Carol Bertola",
+   "role": "Strategy",
+   "location": "Boulder, CO",
+   "linkedin": "https://www.linkedin.com/in/carolbertola/",
+   "imagefile": "carolbertola.jpg",
+   "utcOffset": -6
+ },
+ {
    "name": "Chance Woodward",
    "role": "Engagement",
    "location": "Denver, CO",
@@ -131,7 +195,7 @@ var members = [
    "name": "Christian Layugan",
    "role": "Design",
    "location": "Miami, FL",
-   "linkedin": "",
+   "linkedin": "https://www.linkedin.com/in/christian-layugan/",
    "imagefile": "christianla.jpg",
    "utcOffset": -4
  },
@@ -141,6 +205,14 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/christinepoh/",
    "imagefile": "christinepoh.jpg",
+   "utcOffset": -7
+ },
+ {
+   "name": "Christopher Kahle",
+   "role": "Copywriting",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/chriskahle/",
+   "imagefile": "chrisk.jpg",
    "utcOffset": -7
  },
  {
@@ -160,12 +232,36 @@ var members = [
    "utcOffset": -7
  },
  {
+   "name": "Daniel Tapia",
+   "role": "Technology",
+   "location": "Miami, FL",
+   "linkedin": "https://www.linkedin.com/in/tapiadaniel/",
+   "imagefile": "danieltap.jpg",
+   "utcOffset": -4
+ },
+ {
+  "name": "Dan Willis",
+   "role": "Experience",
+   "location": "Washington, DC",
+   "linkedin": "https://www.linkedin.com/in/uxcrank/",
+   "imagefile": "danw.jpg",
+   "utcOffset": -4
+ },
+ {
    "name": "Darren Himebrook",
    "role": "Engagement",
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/darrenhimebrook/",
    "imagefile": "darrenh.jpg",
    "utcOffset": -4
+ },
+ {
+  "name": "Dave Knoph",
+   "role": "Creative",
+   "location": "San Francisco, CA",
+   "linkedin": "https://www.linkedin.com/in/dvknph/",
+   "imagefile": "davekn.jpg",
+   "utcOffset": -7
  },
  {
    "name": "David Hyung",
@@ -184,20 +280,44 @@ var members = [
    "utcOffset": -4
  },
  {
-   "name": "Fran Webb",
-   "role": "Copywriting",
-   "location": "New York, NY",
-   "linkedin": "https://www.linkedin.com/in/franceswebb/",
-   "imagefile": "franwebb.jpg",
-   "utcOffset": -4
+ "name": "Fran Webb",
+ "role": "Copywriting",
+ "location": "New York, NY",
+ "linkedin": "https://www.linkedin.com/in/franceswebb/",
+ "imagefile": "franwebb.jpg",
+ "utcOffset": -4
  },
  {
-   "name": "Gabriela Medina Florez",
+ "name": "Gabriela Medina Florez",
+ "role": "Experience",
+ "location": "San Francisco, CA",
+ "linkedin": "https://www.linkedin.com/in/gmedin21/",
+ "imagefile": "gabbymed.jpg",
+ "utcOffset": -7
+ },
+ {
+ "name": "Gem McLaughlin",
+ "role": "Experience",
+ "location": "Denver, CO", 
+ "linkedin": "https://www.linkedin.com/in/gemmclaughlin/",  
+ "imagefile": "gemm.jpg",
+ "utcOffset": -6  
+ },
+ {
+ "name": "Gui Borchert",
+ "role": "Design",
+ "location": "Los Angles, CA", 
+ "linkedin": "",  
+ "imagefile": "guiborchert.jpg",
+ "utcOffset": -7
+   },
+ {
+   "name": "Heather Bartos",
    "role": "Experience",
-   "location": "San Francisco, CA",
-   "linkedin": "https://www.linkedin.com/in/gmedin21/",
-   "imagefile": "gabbymed.jpg",
-   "utcOffset": -7
+   "location": "Denver, CO",
+   "linkedin": "https://www.linkedin.com/in/heatherbartos/"
+   "imagefile": "heatherbart.jpg",
+   "utcOffset": -6
  },
  {
    "name": "Heather Miller",
@@ -237,7 +357,15 @@ var members = [
    "location": "Barcelona, Spain",
    "linkedin": "https://www.linkedin.com/in/isaac-leon-6b37548/",
    "imagefile": "isaacleon.jpg",
-   "utcOffset": 2
+   "utcOffset": -2
+},
+{
+   "name": "Jason Scott Rosen",
+   "role": "Engagement",
+   "location": "New York, NY",
+   "linkedin": "https://www.linkedin.com/in/jason-scott-rosen-182b6423/",
+   "imagefile": "jsr.jpg",
+   "utcOffset": -4
  },
  {
    "name": "Jeb Tilly",
@@ -253,6 +381,14 @@ var members = [
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/jennaegold/",
    "imagefile": "jennag.jpg",
+   "utcOffset": -6
+ },
+ {
+  "name": "Jennifer (Eiber) Sanchez",
+   "role": "Copywriting",
+   "location": "Denver, CO",
+   "linkedin": "https://www.linkedin.com/in/jennifereibersanchez/",
+   "imagefile": "jenniferes.jpg",
    "utcOffset": -6
  },
  {
@@ -280,6 +416,14 @@ var members = [
    "utcOffset": -4
  },
  {
+   "name": "John Lu",
+   "role": "Experience",
+   "location": "New York, NY",
+   "linkedin": "https://www.linkedin.com/in/houseoflu/",
+   "imagefile": "johnlu.jpg",
+   "utcOffset": -4
+ },
+ {
    "name": "Jonathan Ayers",
    "role": "Design",
    "location": "Columbus, OH",
@@ -288,10 +432,26 @@ var members = [
    "utcOffset": -4
  },
  {
+   "name": "Jonathan Balck",
+   "role": "Operations",
+   "location": "Boston, MA",
+   "linkedin": "https://www.linkedin.com/in/jonathan-balck-83b4894/",
+   "imagefile": "jonayers.jpg",
+   "utcOffset": -4
+ },
+ {
    "name": "Jordan Fripp",
    "role": "Design",
    "location": "Atlanta, GA",
    "linkedin": "https://www.linkedin.com/in/jordanfripp/",
+   "imagefile": "jordanf.jpg",
+   "utcOffset": -4
+ },
+ {
+   "name": "Jordan Sharp",
+   "role": "Design",
+   "location": "Cincinnati, OH",
+   "linkedin": "https://www.linkedin.com/in/jordan-sharp-16089024/",
    "imagefile": "jordanf.jpg",
    "utcOffset": -4
  },
@@ -320,12 +480,36 @@ var members = [
    "utcOffset": -4
  },
  {
+   "name": "Justin Miller",
+   "role": "Designer",
+   "location": "Washington, DC",
+   "linkedin": "https://www.linkedin.com/in/justinthomasmiller/",
+   "imagefile": "justinmil.jpg",
+   "utcOffset": -4
+ },
+ {
    "name": "Kaleem Khan",
    "role": "Experience",
    "location": "Toronto, ON",
    "linkedin": "https://www.linkedin.com/in/kaleem/",
    "imagefile": "kaleem-ux.jpg",
    "utcOffset": -4
+ },
+ {
+   "name": "Karen Scholl",
+   "role": "Copywriting",
+   "location": "Columbus, OH",
+   "linkedin": "https://www.linkedin.com/in/karen-scholl-781b617/",
+   "imagefile": "karensch.jpg",
+   "utcOffset": -4
+   },
+ {
+   "name": "Kara Benton",
+   "role": "Copywriting",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/kara-benton-3820b37/",
+   "imagefile": "karabenton.jpg",
+   "utcOffset": -7
  },
  {
    "name": "Kathryn White",
@@ -382,6 +566,14 @@ var members = [
    "linkedin": "https://www.linkedin.com/in/mhlive/",
    "imagefile": "marlonher.jpg",
    "utcOffset": -7
+   },
+ {
+   "name": "Matt Segal",
+   "role": "Metrics",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/segalmatt/",
+   "imagefile": "mattsegal.jpg",
+   "utcOffset": -7
  },
  {
    "name": "Matt Walsh",
@@ -390,6 +582,14 @@ var members = [
    "linkedin": "https://www.linkedin.com/in/mattwalsh/",
    "imagefile": "matt.jpg",
    "utcOffset": -6
+ },
+ {
+  "name": "Matthew Weiss",
+   "role": "Design",
+   "location": "New York, Ny",
+   "linkedin": "https://www.linkedin.com/in/matthewweise/",
+   "imagefile": "mattweise.jpg",
+   "utcOffset": -4
  },
  {
    "name": "Max Brettler",
@@ -446,6 +646,22 @@ var members = [
    "linkedin": "https://www.linkedin.com/in/noelfranus/",
    "imagefile": "noelfran.jpg",
    "utcOffset": -6
+ },
+ {
+  "name": "Olivia Mazal", 
+   "role": "Operations", 
+   "location": "Boulder, CO", 
+   "linkedin": ""
+   "imagefile": ""
+   "utcOffset": "-6",
+ },
+ {
+  "name": "Oonie Chase", 
+   "role": "Experience", 
+   "location": "San Francisco, CA", 
+   "linkedin": "https://www.linkedin.com/in/ooniechase/",
+   "imagefile": "ooniech'
+   "utcOffset": "-6",
  },
  {
    "name": "Philip Anthony Gahol",
@@ -528,6 +744,14 @@ var members = [
    "utcOffset": -4
  },
  {
+  "name": "Sergio Tapia",
+   "role": "Technology",
+   "location": "Miami, FL",
+   "linkedin": "https://www.linkedin.com/in/sergiotapia/",
+   "imagefile": "sergiotap.jpg",
+   "utcOffset": -4
+ },
+ {
    "name": "Shaz Sedighzadeh",
    "role": "Recruitment",
    "location": "Los Angeles, CA",
@@ -600,11 +824,35 @@ var members = [
    "utcOffset": -7
  },
  {
+   "name": "Terry Lawyer",
+   "role": "Experience",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/terrylawyer/",
+   "imagefile": "",
+   "utcOffset": -7
+ },
+ {
    "name": "TJ Tshionyi",
    "role": "Engagement",
-   "location": "San Francisco, CA",
+   "location": "Oakland, CA",
    "linkedin": "https://www.linkedin.com/in/tshionyi/",
    "imagefile": "tjtsh.jpg",
+   "utcOffset": -7
+ },
+ {
+   "name": "Tony Tung",
+   "role": "Engagement",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/tonytung/",
+   "imagefile": "tonyt.jpg",
+   "utcOffset": -7
+ },
+ {
+   "name": "Tracy Subisak",
+   "role": "Design",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/tracy-subisak-bb769011/",
+   "imagefile": "tracys.jpg",
    "utcOffset": -7
  },
  {
@@ -614,5 +862,13 @@ var members = [
    "linkedin": "https://www.linkedin.com/in/will-crowe-237b2a85/",
    "imagefile": "willcr.jpg",
    "utcOffset": -5
+  },
+ {
+   "name": "Yzzy Munson",
+   "role": "Design",
+   "location": "New York, NY",
+   "linkedin": "https://www.linkedin.com/in/yzabelle-munson-8914b04/",
+   "imagefile": "yzzymuns.jpg",
+   "utcOffset": -4
  }
 ]
