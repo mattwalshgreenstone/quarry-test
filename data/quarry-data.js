@@ -5,7 +5,7 @@ var members = [
  "location": "Santa Monica, CA", 
  "linkedin": "https://www.linkedin.com/in/abbybridges/", 
  "imagefile": "abbyb.jpg",
- "utcOffset": "-7", 
+ "utcOffset": -7, 
  },
  {
  "name": "Allegra Poschmann",
@@ -34,10 +34,10 @@ var members = [
  {
   "name": "Ana Andjelic",
   "role": "Strategy", 
-  "location": "New York, NY" 
+  "location": "New York, NY", 
   "linkedin": "https://www.linkedin.com/in/anaandjelic/", 
   "imagefile": "anaj.jpg",
-  "utcOffset": "-4", 
+  "utcOffset": -4, 
  },
  {
   "name": "Andy Burdin", 
@@ -45,7 +45,7 @@ var members = [
   "location": "Venice, CA", 
   "linkedin": "https://www.linkedin.com/in/andyburdin/", 
   "imagefile": "andyb",
-  "utcOffset": "-7",
+  "utcOffset": -7,
    },
  {
   "name": "Andrew Perry", 
@@ -53,7 +53,7 @@ var members = [
   "location": "Denver, CO",
   "linkedin": "Design",
   "imagefile": "andrewp.jpg",
-  "utcOffset": "-6",
+  "utcOffset": -6,
  },
  {
    "name": "Angel Anderson",
@@ -101,7 +101,7 @@ var members = [
   "location": "New York, NY", 
   "linkedin": "https://www.linkedin.com/in/ayakarpinska/", 
   "imagefile": "ayak.jpg",
-  "utcOffset": "-4",
+  "utcOffset": -4,
  },
  {
    "name": "Ben Mayjoy",
@@ -315,7 +315,7 @@ var members = [
  "name": "Heather Bartos",
  "role": "Experience",
  "location": "Denver, CO",
- "linkedin": "https://www.linkedin.com/in/heatherbartos/"
+ "linkedin": "https://www.linkedin.com/in/heatherbartos/",
  "imagefile": "heatherbart.jpg",
  "utcOffset": -6
  },
@@ -328,7 +328,7 @@ var members = [
  "utcOffset": -7
  },
  {
-   "name": "Ian Black ",
+   "name": "Ian Black",
    "role": "Experience",
    "location": "Vancouver, BC",
    "linkedin": "www.linkedin.com/in/itomblack",
@@ -651,8 +651,8 @@ var members = [
   "name": "Olivia Mazal", 
    "role": "Operations", 
    "location": "Boulder, CO", 
-   "linkedin": ""
-   "imagefile": ""
+   "linkedin": "",
+   "imagefile": "",
    "utcOffset": -6
  },
  {
