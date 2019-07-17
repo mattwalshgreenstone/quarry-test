@@ -44,7 +44,7 @@ var members = [
   "role": "Design",
   "location": "Venice, CA", 
   "linkedin": "https://www.linkedin.com/in/andyburdin/", 
-  "imagefile": "andyb",
+  "imagefile": "andyb.jpg",
   "utcOffset": -7,
    },
  {
@@ -364,7 +364,7 @@ var members = [
    "role": "Engagement",
    "location": "New York, NY",
    "linkedin": "https://www.linkedin.com/in/jason-scott-rosen-182b6423/",
-   "imagefile": "jsr.jpg",
+   "imagefile": "jsrjpg.jpg",
    "utcOffset": -4
  },
  {
@@ -436,7 +436,7 @@ var members = [
    "role": "Operations",
    "location": "Boston, MA",
    "linkedin": "https://www.linkedin.com/in/jonathan-balck-83b4894/",
-   "imagefile": "jonayers.jpg",
+   "imagefile": "johnb.jpg",
    "utcOffset": -4
  },
  {
@@ -652,7 +652,7 @@ var members = [
    "role": "Operations", 
    "location": "Boulder, CO", 
    "linkedin": "",
-   "imagefile": "",
+   "imagefile": "oliviam.jpg",
    "utcOffset": -6
  },
  {
@@ -828,7 +828,7 @@ var members = [
    "role": "Experience",
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/terrylawyer/",
-   "imagefile": "",
+   "imagefile": "terryl.jpg",
    "utcOffset": -7
  },
  {
