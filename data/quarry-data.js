@@ -280,6 +280,22 @@ var members = [
    "utcOffset": -4
  },
  {
+  "name": "Dominic Flask",
+   "role": "Creative",
+   "location": "Kansas City, KS",
+   "linkedin": "https://www.linkedin.com/in/dangerdom/",
+   "imagefile": "domf.jpg",
+   "utcOffset": -6
+ },
+ {
+  "name": "Eli Wallace",
+   "role": "Production",
+   "location": "Boulder, CO",
+   "linkedin": "https://www.linkedin.com/in/elimariewallace/",
+   "imagefile": "eliw.jpg",
+   "utcOffset": -6
+ },
+ {
    "name": "Fran Webb",
    "role": "Copywriting",
    "location": "New York, NY",
