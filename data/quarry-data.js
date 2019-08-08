@@ -104,7 +104,7 @@ var members = [
   "utcOffset": -4,
  },
  {
-   "name": "Ben Mayjoy",
+   "name": "Ben Majoy",
    "role": "Copywriting",
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/benmajoy/",
@@ -468,7 +468,7 @@ var members = [
    "role": "Design",
    "location": "Cincinnati, OH",
    "linkedin": "https://www.linkedin.com/in/jordan-sharp-16089024/",
-   "imagefile": "jordanf.jpg",
+   "imagefile": "jordansharp.jpg",
    "utcOffset": -4
  },
  {
