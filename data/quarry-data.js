@@ -289,7 +289,7 @@ var members = [
  },
  {
   "name": "Eli Wallace",
-   "role": "Production",
+   "role": "Engagement",
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/elimariewallace/",
    "imagefile": "eliw.jpg",
@@ -544,6 +544,14 @@ var members = [
    "utcOffset": -4
  },
  {
+  "name": "Kiri Jewell",
+   "role": "PR",
+   "location": "San Fransisco, CA",
+   "linkedin": "https://www.linkedin.com/in/kiri-jewell-6067541a/",
+   "imagefile": "kirijewell.jpg",
+   "utcOffset": -7
+ },
+ {
    "name": "Koert Bakker",
    "role": "Research",
    "location": "Boulder, CO",
@@ -701,6 +709,14 @@ var members = [
    "location": "Vancouver, BC",
    "linkedin": "https://www.linkedin.com/in/rachael-eckersley-86974668/",
    "imagefile": "racheleck.jpg",
+   "utcOffset": -7
+ },
+ {
+  "name": "Randall Fransen",
+   "role": "Engagement",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/randallfransen/",
+   "imagefile": "randallfransen.jpg",
    "utcOffset": -7
  },
  {
