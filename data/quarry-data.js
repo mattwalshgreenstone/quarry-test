@@ -323,8 +323,8 @@ var members = [
  "name": "Gui Borchert",
  "role": "Design",
  "location": "Los Angles, CA", 
- "linkedin": "",  
- "imagefile": "guiborchert.jpg",
+ "linkedin": "https://www.linkedin.com/in/guiborchert/",  
+ "imagefile": "guiborchert1.jpg",
  "utcOffset": -7
  },
  {
