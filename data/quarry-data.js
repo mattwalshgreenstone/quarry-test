@@ -116,7 +116,7 @@ var members = [
    "role": "Experience",
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/bkoloski/",
-   "imagefile": "bethk.jpg",
+   "imagefile": "bethk2.jpg",
    "utcOffset": -6
  },
  {
