@@ -76,7 +76,7 @@ var members = [
    "role": "Experience",
    "location": "Denver, CO",
    "linkedin": "https://www.linkedin.com/in/ariana-de-ryss/",
-   "imagefile": "ariana.jpg",
+   "imagefile": "arianna-1.jpg.jpeg",
    "utcOffset": -6
  },
  {
