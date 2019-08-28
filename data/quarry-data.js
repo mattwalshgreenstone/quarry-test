@@ -764,7 +764,7 @@ var members = [
    "role": "Experience",
    "location": "Calgary, AB",
    "linkedin": "https://www.linkedin.com/in/seancardiff/",
-   "imagefile": "seancardiff2.jpg",
+   "imagefile": "seanca.jpg",
    "utcOffset": -6
  },
  {
