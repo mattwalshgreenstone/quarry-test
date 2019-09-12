@@ -604,7 +604,7 @@ var members = [
    "role": "CEO",
    "location": "Boulder, CO",
    "linkedin": "https://www.linkedin.com/in/mattwalsh/",
-   "imagefile": "matt.jpg",
+   "imagefile": "mattw1.jpg",
    "utcOffset": -6
  },
  {
