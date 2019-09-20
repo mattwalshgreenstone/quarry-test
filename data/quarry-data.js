@@ -216,6 +216,14 @@ var members = [
    "utcOffset": -7
  },
  {
+   "name": "Corban Baxter",
+   "role": "Technology",
+   "location": "Arvada, CO",
+   "linkedin": "https://www.linkedin.com/in/corbanb/",
+   "imagefile": "corbanbaxter.jpg",
+   "utcOffset": -6
+ },
+ {
    "name": "Corey Szopinski",
    "role": "Technology",
    "location": "Boulder, CO",
@@ -294,6 +302,14 @@ var members = [
    "linkedin": "https://www.linkedin.com/in/elimariewallace/",
    "imagefile": "eliw.jpg",
    "utcOffset": -6
+ },
+ {
+  "name": "Ez Blaine",
+   "role": "Creative",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/ezblaine/",
+   "imagefile": "ezblaine.jpg",
+   "utcOffset": -7
  },
  {
    "name": "Fran Webb",
