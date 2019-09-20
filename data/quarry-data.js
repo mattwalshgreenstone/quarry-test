@@ -305,7 +305,7 @@ var members = [
  },
  {
   "name": "Ez Blaine",
-   "role": "Creative",
+   "role": "Design",
    "location": "Los Angeles, CA",
    "linkedin": "https://www.linkedin.com/in/ezblaine/",
    "imagefile": "ezblaine.jpg",
