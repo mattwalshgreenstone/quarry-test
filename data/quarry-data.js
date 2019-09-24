@@ -7,6 +7,14 @@ var members = [
  "imagefile": "abbyb.jpg",
  "utcOffset": -7, 
  },
+ {   
+ "name": "Alia Burley", 
+ "role": "Operations",
+ "location": "Portland, OR", 
+ "linkedin": "https://www.linkedin.com/in/aliaburley/", 
+ "imagefile": "aliaburley.jpg",
+ "utcOffset": -7, 
+ },
  {
  "name": "Allegra Poschmann",
  "role": "Design", 
