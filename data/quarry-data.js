@@ -568,6 +568,14 @@ var members = [
    "utcOffset": -4
  },
  {
+   "name": "Kim Mathers",
+   "role": "Copywriting",
+   "location": "Rawlins, WY",
+   "linkedin": "https://www.linkedin.com/in/kimmycopy/",
+   "imagefile": "kimmathers.jpg",
+   "utcOffset": -6
+ },
+ {
   "name": "Kiri Jewell",
    "role": "PR",
    "location": "San Fransisco, CA",
