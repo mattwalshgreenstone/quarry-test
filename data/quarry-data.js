@@ -572,7 +572,7 @@ var members = [
    "role": "Copywriting",
    "location": "Rawlins, WY",
    "linkedin": "https://www.linkedin.com/in/kimmycopy/",
-   "imagefile": "kimmathers.jpg",
+   "imagefile": "kimmathers1.jpg",
    "utcOffset": -6
  },
  {
