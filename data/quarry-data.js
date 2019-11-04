@@ -304,6 +304,14 @@ var members = [
    "utcOffset": -6
  },
  {
+    "name": "Drew Hankins",
+   "role": "Creative",
+   "location": "Portland, OR",
+   "linkedin": "https://www.linkedin.com/in/drew-hankins-6ba3b7149/",
+   "imagefile": "drewhankins.jpg",
+   "utcOffset": -4
+ },
+ {
   "name": "Eli Wallace",
    "role": "Engagement",
    "location": "Boulder, CO",
