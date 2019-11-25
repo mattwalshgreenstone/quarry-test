@@ -602,7 +602,7 @@ var members = [
  {
   "name": "Kosuke Futsukaichi",
   "role": "Experience",
-  "Location": "Vancouver, BC", 
+  "location": "Vancouver, BC", 
   "Linkedin": "https://www.linkedin.com/in/thekosuke/",
   "imagefile": "Kosuke.jpeg",
    "utcOffset": -7
