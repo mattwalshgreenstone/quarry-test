@@ -600,6 +600,14 @@ var members = [
    "utcOffset": -6
  },
  {
+  "name": "Kosuke Futsukaichi",
+  "role": "Experience",
+  "Location": "Vancouver, BC", 
+  "Linkedin": "https://www.linkedin.com/in/thekosuke/",
+  "imagefile": "Kosuke.jpeg",
+   "utcOffset": -7
+ },
+ {
    "name": "Kristina Nilsson",
    "role": "Engagement",
    "location": "Los Angeles, CA",
