@@ -32,6 +32,14 @@ var members = [
    "utcOffset": -6
  },
  {
+  "name": "Allie Edgar",
+  "role": "Copywriting",
+  "location": "Boulder, CO",
+  "linkedin": "https://www.linkedin.com/in/allie-edgar-2275169b/",
+  "imagefile": "allie.jpg",
+  "utcOffset": -6
+},
+ {
    "name": "Allison Scott",
    "role": "Research",
    "location": "Boulder, CO",
@@ -408,6 +416,14 @@ var members = [
    "utcOffset": 2
 },
 {
+  "name": "JB Ayers",
+  "role": "Design",
+  "location": "Columbus, Ohio",
+  "linkedin": "https://www.linkedin.com/in/jb-ayers-0b5883a/",
+  "imagefile": "jb.jpg",
+  "utcOffset": -4
+},
+{
    "name": "Jason Scott Rosen",
    "role": "Engagement",
    "location": "New York, NY",
@@ -639,6 +655,14 @@ var members = [
    "imagefile": "marlonher.jpg",
    "utcOffset": -7
  },
+ {
+  "name": "Matt Gordon",
+  "role": "Developer",
+  "location": "Olympia, WA",
+  "linkedin": "https://www.linkedin.com/in/ratherironic/",
+  "imagefile": "mattg.jpg",
+  "utcOffset": -7
+},
  {
    "name": "Matt Segal",
    "role": "Metrics",
