@@ -415,14 +415,14 @@ var members = [
    "imagefile": "isaacleon.jpg",
    "utcOffset": 2
 },
-{
-  "name": "JB Ayers",
-  "role": "Design",
-  "location": "Columbus, Ohio",
-  "linkedin": "https://www.linkedin.com/in/jb-ayers-0b5883a/",
-  "imagefile": "jb.jpg",
-  "utcOffset": -4
-},
+// {
+//   "name": "JB Ayers",
+//   "role": "Design",
+//   "location": "Columbus, Ohio",
+//   "linkedin": "https://www.linkedin.com/in/jb-ayers-0b5883a/",
+//   "imagefile": "jb.jpg",
+//   "utcOffset": -4
+// },
 {
    "name": "Jason Scott Rosen",
    "role": "Engagement",
