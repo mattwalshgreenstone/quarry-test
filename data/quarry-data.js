@@ -656,6 +656,14 @@ var members = [
    "utcOffset": -7
  },
  {
+  "name": "Matthew Grice",
+  "role": "Creative",
+  "location": "Oklahoma City, OK",
+  "linkedin": "https://www.linkedin.com/in/shyguy/",
+  "imagefile": "mgrice.jpg",
+  "utcOffset": -5
+},
+ {
   "name": "Matt Gordon",
   "role": "Developer",
   "location": "Olympia, WA",
