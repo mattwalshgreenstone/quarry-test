@@ -639,6 +639,14 @@ var members = [
    "imagefile": "nanddus.jpg",
    "utcOffset": -4
  },
+  {
+   "name": "Nathan Iverson",
+   "role": "Design",
+   "location": "Los Angeles, CA",
+   "linkedin": "https://www.linkedin.com/in/njive/",
+   "imagefile": "niverson.jpg",
+   "utcOffset": -4
+ },
  {
    "name": "Noel Franus",
    "role": "Experience",
