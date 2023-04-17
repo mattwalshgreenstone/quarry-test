@@ -523,7 +523,7 @@ var members = [
    name: 'Heather Bartos',
    role: 'Design',
    location: 'Denver, CO',
-   linkedin: 'https://www.linkedin.com/in/heatherbartos/'
+   linkedin: 'https://www.linkedin.com/in/heatherbartos/',
    imagefile: 'heatherbart.jpg',
    utcOffset: -6,
  },
