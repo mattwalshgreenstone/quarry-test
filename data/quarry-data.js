@@ -74,7 +74,7 @@ var members = [
  {
   name: 'Ana Andjelic',
   role: 'Design', 
-  location: 'New York, NY' 
+  location: 'New York, NY',
   linkedin: 'https://www.linkedin.com/in/anaandjelic/', 
   imagefile: 'anaj.jpg',
   utcOffset: -4, 
