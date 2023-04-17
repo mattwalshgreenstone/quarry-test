@@ -12,7 +12,7 @@ var members = [
    role: 'Operations',
    location: 'New York, NY',
    linkedin: 'https://www.linkedin.com/in/abbygrozenski/',
-   imagefile: 'abbygrozenski.jpg',
+   imagefile: 'abbygrozenski.jpeg',
    utcOffset: -7, 
  },
  {
@@ -44,7 +44,7 @@ var members = [
    role: 'Copy',
    location: 'Boulder, CO',
    linkedin: 'https://www.linkedin.com/in/alia-gray-a1b31a2a/',
-   imagefile: 'aliagray.jpg',
+   imagefile: 'aliagray.jpeg',
    utcOffset: -4,
 },
  {
