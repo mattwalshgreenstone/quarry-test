@@ -1408,7 +1408,7 @@ var members = [
    utcOffset: -6,
   },
  {
-   name: 'Yzy Munson',
+   name: 'Yzzy Munson',
    role: 'Design',
    location: 'New York, NY',
    linkedin: 'https://www.linkedin.com/in/yzabelle-munson-8914b04/',
