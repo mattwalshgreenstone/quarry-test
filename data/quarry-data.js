@@ -1078,6 +1078,7 @@ var members = [
    linkedin: 'https://www.linkedin.com/in/pamwismer/',
    imagefile: 'pamwismer.jpg',
    utcOffset: -6,
+}, 
  {
    name: 'Patrick Soria',
    role: 'Production',
