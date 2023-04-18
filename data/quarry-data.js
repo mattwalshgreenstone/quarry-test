@@ -662,7 +662,7 @@ var members = [
    role: 'Advisor',
    location: 'Boston, MA',
    linkedin: 'https://www.linkedin.com/in/jonathan-balck-83b4894/',
-   imagefile: 'jonayers.jpg',
+   imagefile: 'jon-balck.jpg',
    utcOffset: -4,
  },
  {
