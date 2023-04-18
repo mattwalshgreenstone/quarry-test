@@ -263,14 +263,7 @@ var members = [
    imagefile: 'chelseaj.jpg',
    utcOffset: -6,
  },
- {
-   name: 'Cherie Yure',
-   role: 'Operations',
-   location: 'Bloomington, IL',
-   linkedin: 'https://www.linkedin.com/in/cherie-yure-730196245/',
-   imagefile: 'cherieyure.jpg',
-   utcOffset: -6,
-},
+
  {
    name: 'Christina Kallery',
    role: 'Copy',
@@ -423,14 +416,7 @@ var members = [
    imagefile: 'davisk.jpg',
    utcOffset: -4,
  },
- {
-   name: 'Dom Flask',
-   role: 'Design',
-   location: 'San Francisco, CA',
-   linkedin: 'https://www.linkedin.com/in/dangerdom/',
-   imagefile: 'domflask.jpg',
-   utcOffset: -4,
-},
+
  {
    name: 'Drew Hankins',
    role: 'Design',
@@ -1240,14 +1226,6 @@ var members = [
    utcOffset: -4,
 },
  {
-   name: 'Shantanu Rana',
-   role: 'Operations',
-   location: 'New York, NY',
-   linkedin: 'https://www.linkedin.com/in/shantanurana/',
-   imagefile: 'shantanurana.jpg',
-   utcOffset:  -6,
- },
- {
    name: 'Shaz Sedighzadeh',
    role: 'Recruitment',
    location: 'Los Angeles, CA',
@@ -1408,7 +1386,7 @@ var members = [
    utcOffset: -6,
   },
  {
-   name: 'Yzzy Munson',
+   name: 'Yzy Munson',
    role: 'Design',
    location: 'New York, NY',
    linkedin: 'https://www.linkedin.com/in/yzabelle-munson-8914b04/',
