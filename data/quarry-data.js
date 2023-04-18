@@ -84,7 +84,7 @@ var members = [
   role: 'Design',
   location: 'Los Angeles, CA', 
   linkedin: 'https://www.linkedin.com/in/andyburdin/', 
-  imagefile: 'andyb',
+  imagefile: 'andyb.jpg',
   utcOffset: -7,
  },
  {
@@ -1054,7 +1054,7 @@ var members = [
    role: 'Design', 
    location: 'New York, NY', 
    linkedin: 'https://www.linkedin.com/in/ooniechase/',
-   imagefile: 'ooniech',
+   imagefile: 'ooniech.jpg',
    utcOffset: -6,
 },
  {
