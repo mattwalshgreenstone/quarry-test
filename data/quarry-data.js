@@ -817,6 +817,14 @@ var members = [
    imagefile: 'laceybrown.jpg',
    utcOffset: -4,
 },
+  {
+   name: 'Lara Chelak',
+   role: 'Technology',
+   location: 'New York, NY',
+   linkedin: 'https://www.linkedin.com/in/lchelak/',
+   imagefile: 'lchelak.jpg',
+   utcOffset: -4,
+},
  {
    name: 'Lauren Winslow',
    role: 'Design',
