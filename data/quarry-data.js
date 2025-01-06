@@ -1013,7 +1013,7 @@ var members = [
    role: 'Technology',
    location: 'Denver, CO',
    linkedin: 'https://www.linkedin.com/in/mason-weiner/',
-   imagefile: 'masonweiner.jpg',
+   imagefile: 'masonweiner.jpeg',
    utcOffset: -4,
 },
  {
