@@ -16,22 +16,6 @@ var members = [
    utcOffset: -7, 
  },
  {
- name: 'Allegra Poschmann',
- role: 'Design', 
- location: 'Victoria, BC',
- linkedin: 'https://www.linkedin.com/in/allegra-poschmann-66ab8421/',
- imagefile: 'Allegra.jpg', 
- utcOffset: -4, 
- },
- {
-   name: 'Allen Richardson',
-   role: 'Copy',
-   location: 'Longmont, CO',
-   linkedin: 'https://www.linkedin.com/in/allen-c-richardson/',
-   imagefile: 'allenr.jpg',
-   utcOffset: -6,
- },
- {
    name: 'Alia Burley',
    role: 'Production',
    location: 'Los Angeles, CA',
@@ -48,11 +32,35 @@ var members = [
    utcOffset: -4,
 },
  {
+ name: 'Allegra Poschmann',
+ role: 'Design', 
+ location: 'Victoria, BC',
+ linkedin: 'https://www.linkedin.com/in/allegra-poschmann-66ab8421/',
+ imagefile: 'Allegra.jpg', 
+ utcOffset: -4, 
+ },
+ {
+   name: 'Allen Richardson',
+   role: 'Copy',
+   location: 'Longmont, CO',
+   linkedin: 'https://www.linkedin.com/in/allen-c-richardson/',
+   imagefile: 'allenr.jpg',
+   utcOffset: -6,
+ },
+ {
    name: 'Allie Edgar',
    role: 'Copy',
    location: 'Longmont, CO',
    linkedin: 'https://www.linkedin.com/in/allie-edgar-2275169b/',
    imagefile: 'allieedgar.jpg',
+   utcOffset: -6,
+},
+ {
+   name: 'Allie Dietzek',
+   role: 'Operations',
+   location: 'New York, NY',
+   linkedin: 'https://www.linkedin.com/in/allie-dietzek/',
+   imagefile: 'alliedietzek.jpeg',
    utcOffset: -6,
 },
  {
@@ -191,6 +199,14 @@ var members = [
    imagefile: 'bobbyg.jpg',
    utcOffset: -6,
  },
+ {
+   name: 'Bonnie Sims',
+   role: 'Operations',
+   location: 'Austin, TX',
+   linkedin: 'https://www.linkedin.com/in/bonniesims/',
+   imagefile: 'bonniesims.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Brian Skahan',
    role: 'Operations',
@@ -331,7 +347,7 @@ var members = [
  {
    name: 'Corey Szopinski',
    role: 'Technology',
-   location: 'Boulder, CO',
+   location: 'Los Angeles, CA',
    linkedin: 'https://www.linkedin.com/in/coreyszopinski/',
    imagefile: 'coreys.jpg',
    utcOffset: -6,
@@ -360,6 +376,14 @@ var members = [
    imagefile: 'danlafontaine.jpg',
    utcOffset: -6,
  },
+  {
+   name: 'Dan Ligon',
+   role: 'Creative',
+   location: 'Boulder, CO',
+   linkedin: 'https://www.linkedin.com/in/danligon/',
+   imagefile: 'danlligon.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Daniel Tapia',
    role: 'Technology',
@@ -400,6 +424,14 @@ var members = [
    imagefile: 'davidh.jpg',
    utcOffset: -4,
  },
+   {
+   name: 'David Silva',
+   role: 'Design',
+   location: 'Irvine, CA',
+   linkedin: 'https://www.linkedin.com/in/davidhsilva/',
+   imagefile: 'davidsilva.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Dave Steinke',
    role: 'Creative',
@@ -416,7 +448,14 @@ var members = [
    imagefile: 'davisk.jpg',
    utcOffset: -4,
  },
-
+   {
+   name: 'Denise Champion',
+   role: 'Strategy',
+   location: 'Denver, CO',
+   linkedin: 'https://www.linkedin.com/in/denisebankschampion/',
+   imagefile: 'denisechampion.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Drew Hankins',
    role: 'Design',
@@ -505,6 +544,14 @@ var members = [
    imagefile: 'hamletfort.jpg',
    utcOffset: -4,
    },
+    {
+   name: 'Harris Kenny',
+   role: 'Operations',
+   location: 'Denver, CO',
+   linkedin: 'https://www.linkedin.com/in/harriskenny/',
+   imagefile: 'harriskenny.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Heather Bartos',
    role: 'Design',
@@ -641,6 +688,14 @@ var members = [
    imagefile: 'johnben.jpg',
    utcOffset: -4,
  },
+    {
+   name: 'John Kieselhorst',
+   role: 'Design',
+   location: 'Boulder, CO',
+   linkedin: 'https://www.linkedin.com/in/john-kieselhorst-23782450/',
+   imagefile: 'johnkieselhorst.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'John Lu',
    role: 'Design',
@@ -729,6 +784,14 @@ var members = [
    imagefile: 'justinshih.jpg',
    utcOffset: -4,
  },
+    {
+   name: 'Kaitlyn Labow',
+   role: 'Design',
+   location: 'Toronto, ON',
+   linkedin: 'https://www.linkedin.com/in/kaitlynlabow/',
+   imagefile: 'kaitlynlabow.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Kaleem Khan',
    role: 'Design',
@@ -809,6 +872,14 @@ var members = [
    imagefile: 'kristinanil.jpg',
    utcOffset: -7,
 },
+    {
+   name: 'Kyle Goodrich',
+   role: 'Design',
+   location: 'Asheville, NC',
+   linkedin: 'https://www.linkedin.com/in/kylegoodrich/',
+   imagefile: 'kylegoodrich.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Lacey Brown',
    role: 'Production',
@@ -857,6 +928,14 @@ var members = [
    imagefile: 'lout.jpg',
    utcOffset: -6,
 },
+   {
+   name: 'Luke Krueger',
+   role: 'Operations',
+   location: 'Calgary, AB',
+   linkedin: 'https://www.linkedin.com/in/luketkrueger/',
+   imagefile: 'lukekrueger.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Mackenzie Jones',
    role: 'Operations',
@@ -865,6 +944,14 @@ var members = [
    imagefile: 'mackenziejones.jpg',
    utcOffset: -4,
  },
+   {
+   name: 'Malissa Pason',
+   role: 'Operations',
+   location: 'Austin, TX',
+   linkedin: 'https://www.linkedin.com/in/malissapason/',
+   imagefile: 'malissapason.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Mara Walsh',
    role: 'Operations',
@@ -881,6 +968,22 @@ var members = [
    imagefile: 'marianamazzinii.jpg',
    utcOffset: -4,
  },
+    {
+   name: 'Mark Aronson',
+   role: 'Strategy',
+   location: 'New York, NY',
+   linkedin: 'https://www.linkedin.com/in/markbaronson/',
+   imagefile: 'markaronson.jpeg',
+   utcOffset: -6,
+},
+     {
+   name: 'Mark Krawczuk',
+   role: 'Production',
+   location: 'New York, NY',
+   linkedin: 'https://www.linkedin.com/in/markkrawczuk/',
+   imagefile: 'markkrawczuk.jpeg',
+   utcOffset: -6,
+},
  {
    name: 'Marlon Hernandez',
    role: 'Design',
@@ -903,6 +1006,14 @@ var members = [
    location: 'New York, NY',
    linkedin: 'https://www.linkedin.com/in/~marvin/',
    imagefile: 'marvinyan.jpg',
+   utcOffset: -4,
+},
+  {
+   name: 'Mason Weiner',
+   role: 'Technology',
+   location: 'Denver, CO',
+   linkedin: 'https://www.linkedin.com/in/mason-weiner/',
+   imagefile: 'masonweiner.jpg',
    utcOffset: -4,
 },
  {
@@ -969,6 +1080,14 @@ var members = [
    imagefile: 'meaghcafferty.jpg',
    utcOffset: -4,
  },
+   {
+   name: 'Meg (Knoph) Swinter',
+   role: 'Copy',
+   location: 'Detroit, MI',
+   linkedin: 'https://www.linkedin.com/in/megknoph/',
+   imagefile: 'megswinter.jpeg',
+   utcOffset: -4,
+},
  {
    name: 'Miguel Medina',
    role: 'Design',
@@ -1185,6 +1304,14 @@ var members = [
    imagefile: 'sarahgraham.jpg',
    utcOffset: -4,
  },
+  {
+   name: 'Sarah Manna',
+   role: 'Production',
+   location: 'New York, NY',
+   linkedin: 'https://www.linkedin.com/in/sarah-manna-b4a5777/',
+   imagefile: 'sarahmanna.jpeg',
+   utcOffset: -4,
+ },
  {
    name: 'Scott Potter',
    role: 'Production',
@@ -1280,6 +1407,14 @@ var members = [
    linkedin: 'https://www.linkedin.com/in/sophie-cummings1/',
    imagefile: 'sophiecum.jpg',
    utcOffset: -6,
+ },
+   {
+   name: 'Stephanie Algieri',
+   role: 'Design',
+   location: 'Toronto, ON',
+   linkedin: 'https://www.linkedin.com/in/stephjuliet/',
+   imagefile: 'stephaniealgieri.jpeg',
+   utcOffset: -4,
  },
  {
    name: 'Stephanie Krivitzky',
@@ -1385,6 +1520,14 @@ var members = [
    imagefile: 'willcr.jpg',
    utcOffset: -5
 },
+    {
+   name: 'Will Kuecker',
+   role: 'Production',
+   location: 'Bristol, VA',
+   linkedin: 'https://www.linkedin.com/in/williamkuecker/',
+   imagefile: 'willkuecker.jpeg',
+   utcOffset: -4,
+ },
  {
    name: 'Wilian Iralzabal',
    role: 'Technology',
@@ -1401,4 +1544,12 @@ var members = [
    imagefile: 'yzzymuns.jpg',
    utcOffset: -4,
 },
+  {
+   name: 'Zack Moore',
+   role: 'Technology',
+   location: 'Denver, CO',
+   linkedin: 'https://www.linkedin.com/in/zackarymoore/',
+   imagefile: 'zackmoore.jpg',
+   utcOffset: -6,
+  },
 ] ;
