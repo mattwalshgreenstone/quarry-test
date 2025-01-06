@@ -968,7 +968,16 @@ var members = [
    imagefile: 'marianamazzinii.jpg',
    utcOffset: -4,
  },
-    {
+ {
+   name: 'Maria Young',
+   role: 'Production',
+   location: 'Kansas City, MO',
+   linkedin: 'https://www.linkedin.com/in/mariayoung/',
+   imagefile: 'mariayoung.jpeg',
+   utcOffset: -4,
+ },
+
+ {
    name: 'Mark Aronson',
    role: 'Strategy',
    location: 'New York, NY',
