@@ -846,7 +846,7 @@ var members = [
    location: 'Denver, CO',
    linkedin: 'https://www.linkedin.com/in/kimmycopy/',
    imagefile: 'kimmathers.jpg',
-   utcOffset: -4,
+   utcOffset: -8,
  },
  {
    name: 'Koert Bakker',
