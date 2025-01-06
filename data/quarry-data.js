@@ -784,7 +784,15 @@ var members = [
    imagefile: 'justinshih.jpg',
    utcOffset: -4,
  },
-    {
+ {
+   name: 'Justin Yu',
+   role: 'Design',
+   location: 'Vancouver, BC',
+   linkedin: 'https://www.linkedin.com/in/justin-yu-138450220/',
+   imagefile: 'justinyu.jpeg',
+   utcOffset: -4,
+ },
+ {
    name: 'Kaitlyn Labow',
    role: 'Design',
    location: 'Toronto, ON',
