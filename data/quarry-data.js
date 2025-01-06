@@ -1549,7 +1549,7 @@ var members = [
    role: 'Technology',
    location: 'Denver, CO',
    linkedin: 'https://www.linkedin.com/in/zackarymoore/',
-   imagefile: 'zackmoore.jpg',
+   imagefile: 'zackmoore.jpeg',
    utcOffset: -6,
   },
 ] ;
